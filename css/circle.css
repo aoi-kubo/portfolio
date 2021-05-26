@@ -120,11 +120,14 @@
   top: 62%;
   left: 50%;
   width: 100%;
-  font-size: 30px;
+  font-size: 24px;
   top: 70%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+  font-family: brandon-grotesque, sans-serif;
+  font-weight: 800;
+  letter-spacing: 0.012rem;
 }
 
 .section .swiper-slide svg {
@@ -197,7 +200,6 @@
 }
 
 .section .modalArea {
-  font-family: wanpaku-ruika, sans-serif;
   display: none;
   position: fixed;
   z-index: 40;
@@ -292,7 +294,7 @@
 .page {
   color: #35375e;
   background: #f6f5f5;
-  font-family: anisette-std, sans-serif;
+  font-family: anisette-std, sans-serif, "游ゴシック体";
   font-size: 16px;
   min-width: 100%;
   color: #515151;
@@ -339,7 +341,6 @@
 }
 
 .page .modalArea {
-  font-family: sans-serif;
   display: none;
   position: fixed;
   z-index: 40;
@@ -579,10 +580,6 @@
   border-bottom: 13px solid #35375e;
 }
 
-.page .profile .main-box {
-  font-family: wanpaku-ruika, sans-serif;
-}
-
 .page .profile .main-profile {
   font-size: 20px;
   letter-spacing: 0.05em;
@@ -591,10 +588,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-.page .profile .main-profile span {
-  font-family: "Bowlby One SC", cursive;
 }
 
 .page .profile .main-profile .box-left,
@@ -776,7 +769,6 @@
 }
 
 .page .service .main-service li .text p {
-  font-family: wanpaku-ruika, sans-serif;
   padding-top: 15px;
   width: 80%;
   margin: 0 auto;
@@ -856,7 +848,6 @@
 }
 
 .page .portfolio .main-portfolio {
-  font-family: wanpaku-ruika, sans-serif;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -150,9 +150,18 @@ $color: #ea756dab;
       z-index: 8;
       width: 380px;
       height: 300px;
+      // img {
+      //   transition: all 0.3s;
+      // }
       .png4 {
         padding-top: 50px;
       }
+      // &:hover {
+      //   img {
+      //     transition: all 0.3s;
+      //     transform: scale(1.15);
+      //   }
+      // }
     }
     .png3 {
       top: 17%;
@@ -171,10 +180,13 @@ $color: #ea756dab;
     }
     h3 {
       @include text;
-      font-size: 30px;
+      font-size: 24px;
       top: 70%;
       left: 50%;
       transform: translateX(-50%);
+      font-family: brandon-grotesque, sans-serif;
+      font-weight: 800;
+      letter-spacing: 0.012rem;
     }
     svg {
       transform: scale(1.3);
@@ -229,7 +241,7 @@ $color: #ea756dab;
     }
   }
   .modalArea {
-    font-family: wanpaku-ruika, sans-serif;
+    // font-family: wanpaku-ruika, sans-serif;
     display: none;
     position: fixed;
     z-index: 40;
@@ -308,7 +320,7 @@ $color: #ea756dab;
   color: $mainColor;
   background: #f6f5f5;
   // font-family: "Bowlby One SC", cursive;
-  font-family: anisette-std, sans-serif;
+  font-family: anisette-std, sans-serif, "游ゴシック体";
   font-size: 16px;
   min-width: 100%;
   color: $colorBlack;
@@ -340,7 +352,7 @@ $color: #ea756dab;
     cursor: pointer;
   }
   .modalArea {
-    font-family: sans-serif;
+    // font-family: sans-serif;
     display: none;
     position: fixed;
     z-index: 40;
@@ -536,7 +548,7 @@ $color: #ea756dab;
         }
       }
       &-box {
-        font-family: wanpaku-ruika, sans-serif;
+        // font-family: wanpaku-ruika, sans-serif;
       }
       &-profile {
         font-size: 20px;
@@ -545,7 +557,7 @@ $color: #ea756dab;
         margin: 0 auto;
         display: flex;
         span {
-          font-family: "Bowlby One SC", cursive;
+          // font-family: "Bowlby One SC", cursive;
         }
         .box-left,
         .box-right {
@@ -679,7 +691,7 @@ $color: #ea756dab;
               padding-bottom: 15px;
             }
             p {
-              font-family: wanpaku-ruika, sans-serif;
+              // font-family: wanpaku-ruika, sans-serif;
               padding-top: 15px;
               width: 80%;
               margin: 0 auto;
@@ -740,7 +752,7 @@ $color: #ea756dab;
         }
       }
       &-portfolio {
-        font-family: wanpaku-ruika, sans-serif;
+        // font-family: wanpaku-ruika, sans-serif;
         display: flex;
         align-items: center;
         justify-content: space-between;
