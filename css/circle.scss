@@ -1,14 +1,16 @@
 $mainColor: #35375e;
 $profileColor: #fade9e;
-$colorBlack: #515151;
+$colorBlack: #000000;
+$colorHeader: #515151;
 $secondColor: #5b72e0;
 $serviceColor: #ea756d;
 $thirdColor: #5cba96;
 $portfolioColor: #dc4518;
 $fourthColor: #119d85;
 $contactColor: #fbe1d6;
+$pageColor: #f6f5f5;
 
-$color: #ea756dab;
+// $color: #ea756dab;
 
 @mixin text {
   position: absolute;
@@ -103,6 +105,11 @@ $color: #ea756dab;
   right: 2rem;
   font-size: 40px;
   cursor: pointer;
+}
+@mixin box-title {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
 }
 
 .circle {
@@ -318,19 +325,19 @@ $color: #ea756dab;
 
 .page {
   color: $mainColor;
-  background: #f6f5f5;
+  background: $pageColor;
   // font-family: "Bowlby One SC", cursive;
   font-family: anisette-std, sans-serif, "游ゴシック体";
   font-size: 16px;
   min-width: 100%;
-  color: $colorBlack;
+  color: $colorHeader;
   .header {
     position: fixed;
     z-index: 5;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 60px 0;
+    padding: 40px 60px 0;
     width: 100%;
     box-sizing: border-box;
     &-logo {
@@ -344,7 +351,7 @@ $color: #ea756dab;
         
         margin-left: 50px;
         font-size: 18px;
-        border-bottom: 2px solid $colorBlack;
+        border-bottom: 2px solid $colorHeader;
       }
     }
   }
@@ -408,7 +415,7 @@ $color: #ea756dab;
       width: 100%;
       height: 100%;
       overflow: hidden;
-      z-index: -3;
+      z-index: -5;
       li {
         position: absolute;
         display: block;
@@ -450,7 +457,7 @@ $color: #ea756dab;
           animation-delay: 0s;
         }
         &:nth-child(6) {
-          left: 75%;
+          left: 71%;
           width: 110px;
           height: 110px;
           animation-delay: 3s;
@@ -504,7 +511,7 @@ $color: #ea756dab;
       position: relative;
       font-size: 100px;
       text-align: center;
-      padding-top: 100px;
+      padding-top: 80px;
       letter-spacing: 0.03em;
       opacity: 0;
       animation: fadein-left 3s 0s ease-in forwards;
@@ -513,7 +520,7 @@ $color: #ea756dab;
         content: "";
         width: 35%;
         left: 50%;
-        bottom: 2px;
+        bottom: 5px;
         transform: translateX(-50%);
       }
     }
@@ -526,56 +533,108 @@ $color: #ea756dab;
           border-bottom: 13px solid $mainColor;
         }
       }
-      // &-box {
-      //   // font-family: wanpaku-ruika, sans-serif;
-      // }
       &-profile {
         // font-size: 20px;
         // letter-spacing: 0.05em;
-        width: 70%;
+        width: 65%;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        padding-top: 30px;
-        // position: relative;
-        // height: 100%;
-        // width: 100%;
+        padding-top: 10px;
+        position: relative;
         .box-left, .box-right {
           width: 45%;
+          p {
+            font-family: "游ゴシック", "Yu Gothic";
+            font-size: 18px;
+            line-height: 23px;
+            span {
+              display: none;
+            }
+          }
+          .trigger {
+            width: 60%;
+          }
+          .message {
+            width: 70%;
+          }
+          .left-content, .right-content {
+            padding-bottom: 30px;
+            color: $colorBlack;
+            .box-title {
+              padding-bottom: 10px;
+              color: $mainColor;
+              p {
+                font-family: anisette-std, sans-serif;
+                display: inline-block;
+                font-size: 30px;
+                position: relative;
+                z-index: 10;
+                &::before {
+                  @include box-title;
+                  width: 40px;
+                  height: 40px;
+                  background-color: $profileColor;
+                  z-index: -1;
+                  top: -35%;
+                  left: -75%;
+                }
+                &::after {
+                  @include box-title;
+                  width: 46px;
+                  height: 46px;
+                  background-color: $pageColor;
+                  z-index: -25;
+                  top: -50%;
+                }
+              }
+              h4 {
+                font-weight: normal;
+                font-size: 30px;
+                display: inline-block;
+                background-color: #fff;
+                line-height: 40px;
+              }
+            }
+          }
+        }
+        .left-content {
+          p {
+            &::after {
+              left: -75%;
+            }
+          }
           h4 {
-            font-size: 32px;
-            font-weight: normal;
+            padding: 0 20px 0 30px;
           }
         }
         .box-right {
           text-align: right;
+          padding-bottom: 30px;
+          .right-content {
+            p {
+              display: inline-block;
+              &::after {
+                right: -65%;
+              }
+            }
+            h4 {
+              padding: 0 30px 0 20px;
+            }
+          }
         }
-        // .box-left {
-        //   padding: 80px 0;
-        //   display: flex;
-        //   justify-content: start;
-        //   opacity: 0;
-        //   animation: fadein-bottom 1.5s 2s ease-out forwards;
-        //   &_text {
-        //     padding-left: 10px;
-        //     width: 320px;
-        //   }
-        //   p {
-        //     width: 120px;
-        //   }
-        // }
-        // .main-img {
-        //   position: absolute;
-        //   top: 50%;
-        //   left: 50%;
-        //   transform: translate(-50%, -50%);
-        //   opacity: 0;
-        //   animation: fadein-bottom 1.5s 2.5s ease-out forwards;
-        //   width: 280px;
-        //   img {
-        //     animation: blob 20s infinite;
-        //   }
-        // }
+        .profile-img {
+          position: absolute;
+          top: 25%;
+          left: 35%;
+          transform: translate(-50%, -50%);
+          opacity: 0;
+          animation: fadein-bottom 1.5s 2.5s ease-out forwards;
+          width: 250px;
+          img {
+            animation: blob 20s infinite;
+          }
+        }
       }
     }
     .area {
