@@ -1529,17 +1529,54 @@
   .page .profile .main-profile .box-right {
     width: 50%;
   }
-  .page .profile .main-profile .box-left {
-    padding: 70px 0;
+  .page .profile .main-profile .box-left .trigger,
+  .page .profile .main-profile .box-right .trigger {
+    width: 50%;
   }
-  .page .profile .main-profile .box-left p {
-    width: 150px;
+  .page .profile .main-profile .box-left .message,
+  .page .profile .main-profile .box-right .message {
+    width: 60%;
   }
-  .page .profile .main-profile .box-right {
-    padding: 30px 0 0 70px;
+  .page .profile .main-profile .box-left .left-content::before {
+    position: absolute;
+    content: "";
+    background-color: #35375e;
+    height: 2px;
+    bottom: 20px;
+    width: 73%;
+    width: 68%;
   }
-  .page .profile .main-profile .box-right img {
-    width: 80%;
+  .page .profile .main-profile .box-left .left-content:nth-child(1)::after {
+    width: 15%;
+    bottom: -3px;
+    right: 120px;
+  }
+  .page .profile .main-profile .box-left .left-content:nth-child(3)::after {
+    width: 22%;
+    bottom: 54px;
+    right: 94px;
+  }
+  .page .profile .main-profile .box-left .left-content:nth-child(odd)::before {
+    width: 60%;
+  }
+  .page .profile .main-profile .box-right .right-content::before {
+    width: 60%;
+  }
+  .page .profile .main-profile .box-right .right-content:nth-child(1)::after {
+    width: 15%;
+    bottom: -3px;
+    left: 120px;
+  }
+  .page .profile .main-profile .box-right .right-content:nth-child(2)::after {
+    width: 28%;
+    bottom: 63px;
+    left: 71px;
+  }
+  .page .profile .main-profile .box-right ul {
+    padding-left: 180px;
+  }
+  .page .profile-img {
+    width: 90%;
   }
   .page .service .area .circles {
     height: 1390px;
