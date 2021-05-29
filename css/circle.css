@@ -234,7 +234,7 @@
   color: #fff;
   background-color: #35375e;
   border-radius: 10px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .section .modalArea .modalContents h3 {
@@ -377,7 +377,7 @@
   color: #fff;
   background-color: #35375e;
   border-radius: 10px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .page .modalArea .modalContents h3 {
@@ -564,7 +564,7 @@
   position: relative;
   font-size: 100px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 70px;
   letter-spacing: 0.03em;
   opacity: 0;
   -webkit-animation: fadein-left 3s 0s ease-in forwards;
@@ -598,7 +598,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 20px;
   position: relative;
 }
 
@@ -673,17 +673,113 @@
   line-height: 40px;
 }
 
-.page .profile .main-profile .left-content p::after {
+.page .profile .main-profile .box-left .left-content {
+  position: relative;
+}
+
+.page .profile .main-profile .box-left .left-content::before {
+  position: absolute;
+  content: "";
+  background-color: #35375e;
+  height: 2px;
+  bottom: 20px;
+  width: 73%;
+  left: 0;
+}
+
+.page .profile .main-profile .box-left .left-content:nth-child(1)::after {
+  position: absolute;
+  content: "";
+  background-color: #35375e;
+  height: 2px;
+  bottom: 20px;
+  width: 73%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 18%;
+  bottom: -3px;
+  right: 73px;
+}
+
+.page .profile .main-profile .box-left .left-content:nth-child(3)::after {
+  position: absolute;
+  content: "";
+  background-color: #35375e;
+  height: 2px;
+  bottom: 20px;
+  width: 73%;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  width: 25%;
+  bottom: 52px;
+  right: 51px;
+}
+
+.page .profile .main-profile .box-left .left-content:nth-child(odd)::before {
+  width: 65%;
+}
+
+.page .profile .main-profile .box-left .left-content p::after {
   left: -75%;
 }
 
-.page .profile .main-profile .left-content h4 {
+.page .profile .main-profile .box-left .left-content h4 {
   padding: 0 20px 0 30px;
+}
+
+.page .profile .main-profile .box-left .left-content .profile-text {
+  padding-left: 20px;
 }
 
 .page .profile .main-profile .box-right {
   text-align: right;
-  padding-bottom: 30px;
+}
+
+.page .profile .main-profile .box-right .right-content {
+  position: relative;
+}
+
+.page .profile .main-profile .box-right .right-content::before {
+  position: absolute;
+  content: "";
+  background-color: #35375e;
+  height: 2px;
+  bottom: 20px;
+  width: 73%;
+  right: 0;
+  width: 65%;
+}
+
+.page .profile .main-profile .box-right .right-content:nth-child(1)::after {
+  position: absolute;
+  content: "";
+  background-color: #35375e;
+  height: 2px;
+  bottom: 20px;
+  width: 73%;
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+  width: 18%;
+  bottom: -3px;
+  left: 73px;
+}
+
+.page .profile .main-profile .box-right .right-content:nth-child(2) {
+  padding-bottom: 25px;
+}
+
+.page .profile .main-profile .box-right .right-content:nth-child(2)::after {
+  position: absolute;
+  content: "";
+  background-color: #35375e;
+  height: 2px;
+  bottom: 20px;
+  width: 73%;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 30%;
+  bottom: 60px;
+  left: 35px;
 }
 
 .page .profile .main-profile .box-right .right-content p {
@@ -696,6 +792,54 @@
 
 .page .profile .main-profile .box-right .right-content h4 {
   padding: 0 30px 0 20px;
+}
+
+.page .profile .main-profile .box-right .right-content .profile-text {
+  padding-right: 20px;
+}
+
+.page .profile .main-profile .box-right ul {
+  text-align-last: left;
+  padding-left: 145px;
+}
+
+.page .profile .main-profile .box-right ul li p {
+  display: inline-block;
+}
+
+.page .profile .main-profile .box-right ul li span {
+  position: relative;
+  border: 1px solid #35375e;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 5px 0px;
+  width: 100%;
+}
+
+.page .profile .main-profile .box-right ul li span::before {
+  position: absolute;
+  content: "";
+  background-color: #35375e;
+  border-radius: 30px;
+  padding: 5px 0;
+  top: 0;
+  left: 0;
+}
+
+.page .profile .main-profile .box-right ul li .first::before {
+  width: 90%;
+}
+
+.page .profile .main-profile .box-right ul li .second::before {
+  width: 65%;
+}
+
+.page .profile .main-profile .box-right ul li .third::before {
+  width: 45%;
+}
+
+.page .profile .main-profile .box-right ul li .fourth::before {
+  width: 80%;
 }
 
 .page .profile .main-profile .profile-img {

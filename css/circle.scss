@@ -97,7 +97,7 @@ $pageColor: #f6f5f5;
   color: #fff;
   background-color: $mainColor;
   border-radius: 10px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 @mixin closeModal {
   position: absolute;
@@ -110,6 +110,14 @@ $pageColor: #f6f5f5;
   position: absolute;
   content: "";
   border-radius: 50%;
+}
+@mixin line-before {
+  position: absolute;
+  content: "";
+  background-color: $mainColor;
+  height: 2px;
+  bottom: 20px;
+  width: 73%;
 }
 
 .circle {
@@ -511,7 +519,7 @@ $pageColor: #f6f5f5;
       position: relative;
       font-size: 100px;
       text-align: center;
-      padding-top: 80px;
+      padding-top: 70px;
       letter-spacing: 0.03em;
       opacity: 0;
       animation: fadein-left 3s 0s ease-in forwards;
@@ -540,7 +548,7 @@ $pageColor: #f6f5f5;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        padding-top: 10px;
+        padding-top: 20px;
         position: relative;
         .box-left, .box-right {
           width: 45%;
@@ -598,20 +606,69 @@ $pageColor: #f6f5f5;
             }
           }
         }
-        .left-content {
-          p {
-            &::after {
-              left: -75%;
+        .box-left {
+          .left-content {
+            position: relative;
+            &::before {
+              @include line-before;
+              left: 0;
             }
-          }
-          h4 {
-            padding: 0 20px 0 30px;
+            &:nth-child(1)::after {
+              @include line-before;
+              transform: rotate(45deg);
+              width: 18%;
+              bottom: -3px;
+              right: 73px;
+            }
+            &:nth-child(3)::after {
+              @include line-before;
+              transform: rotate(135deg);
+              width: 25%;
+              bottom: 52px;
+              right: 51px;
+            }
+            &:nth-child(odd)::before {
+              width: 65%;
+            }
+            p {
+              &::after {
+                left: -75%;
+              }
+            }
+            h4 {
+              padding: 0 20px 0 30px;
+            }
+            .profile-text {
+              padding-left: 20px;
+            }
           }
         }
         .box-right {
           text-align: right;
-          padding-bottom: 30px;
           .right-content {
+            position: relative;
+            &::before {
+              @include line-before;
+              right: 0;
+              width: 65%;
+            }
+            &:nth-child(1)::after {
+              @include line-before;
+              transform: rotate(135deg);
+              width: 18%;
+              bottom: -3px;
+              left: 73px;
+            }
+            &:nth-child(2) {
+              padding-bottom: 25px;
+              &::after {
+                @include line-before;
+                transform: rotate(45deg);
+                width: 30%;
+                bottom: 60px;
+                left: 35px;
+              }
+            }
             p {
               display: inline-block;
               &::after {
@@ -620,6 +677,47 @@ $pageColor: #f6f5f5;
             }
             h4 {
               padding: 0 30px 0 20px;
+            }
+            .profile-text {
+              padding-right: 20px;
+            }
+          }
+          ul {
+            text-align-last: left;
+            padding-left: 145px;
+            li {
+              p {
+                display: inline-block;
+              }
+              span {
+                position: relative;
+                border: 1px solid $mainColor;
+                border-radius: 30px;
+                display: inline-block;
+                padding: 5px 0px;
+                width: 100%;
+                &::before {
+                  position: absolute;
+                  content: "";
+                  background-color: $mainColor;
+                  border-radius: 30px;
+                  padding: 5px 0;
+                  top: 0;
+                  left: 0;
+                }
+              }
+              .first::before {
+                width: 90%;
+              }
+              .second::before {
+                width: 65%;
+              }
+              .third::before {
+                width: 45%;
+              }
+              .fourth::before {
+                width: 80%;
+              }
             }
           }
         }
@@ -1552,8 +1650,3 @@ $pageColor: #f6f5f5;
     }
   }
 }
-
-// .bodymovin {
-//   width: 100%;
-//   height: 200px;
-// }
