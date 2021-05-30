@@ -2020,11 +2020,12 @@
   .section .swiper-slide span {
     width: 50%;
     top: 57%;
+    border-bottom: 5px solid #fff;
   }
   .section .swiper-slide h3 {
     font-size: 24px;
     top: 59%;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
     width: 90%;
     margin: 0 auto;
   }
@@ -2227,10 +2228,66 @@
   }
 }
 
+@media screen and (max-width: 414px) {
+  .section .swiper-slide h2 {
+    font-size: 55px;
+    top: 54%;
+  }
+  .section .swiper-slide .img {
+    top: 29%;
+  }
+  .section .swiper-slide .png3 {
+    top: 28%;
+  }
+  .section .swiper-slide .png4 {
+    padding-top: 30px;
+  }
+  .section .swiper-slide span {
+    width: 48%;
+    top: 58%;
+  }
+  .section .swiper-slide h3 {
+    top: 60%;
+  }
+  .section .swiper-slide .svg {
+    top: 44%;
+  }
+  .section .swiper-pagination {
+    bottom: 30px !important;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .header-logo {
+    width: 25%;
+  }
+  .section .swiper-slide .svg {
+    top: 43%;
+    -webkit-transform: translate(-50%, -50%) scale(0.85);
+            transform: translate(-50%, -50%) scale(0.85);
+  }
+}
+
 @media screen and (max-width: 375px) {
-  .section .swiper-slide svg {
-    width: 250px;
-    height: 250px;
+  .header {
+    padding: 30px 30px 0;
+  }
+  .header-logo {
+    width: 30%;
+  }
+  .section .swiper-slide h2 {
+    font-size: 50px;
+  }
+  .section .swiper-slide .img {
+    width: 240px;
+    height: 200px;
+    top: 28%;
+  }
+  .section .swiper-slide .png4 {
+    padding-top: 40px;
+  }
+  .section .swiper-slide .svg {
+    top: 45%;
   }
 }
 /*# sourceMappingURL=circle.css.map */

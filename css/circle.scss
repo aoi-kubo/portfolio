@@ -1419,67 +1419,6 @@ $pageColor: #f6f5f5;
     }
   }
 }
-// @media screen and (max-width: 980px) {
-//   .page {
-//     .profile {
-//       .main {
-//         h1 {
-//           padding-top: 100px;
-//         }
-//       }
-//     }
-//     .service {
-//       .area {
-//         .circles {
-//           height: 1290px;
-//           li {
-//             animation: service-pc 20s linear infinite;
-//           }
-//         }
-//       }
-//       .main {
-//         &-service {
-//           li {
-//             width: 480px;
-//             height: 480px;
-//             &::before {
-//               top: -35px;
-//               left: -60px;
-//               transform: scale(0.93);
-//             }
-//             &:nth-child(1)::before {
-//               left: -40px;
-//             }
-//             &:nth-child(2)::before {
-//               left: -45px;
-//             }
-//             svg {
-//               width: 560px;
-//             }
-//             .text {
-//               p {
-//                 width: 50%;
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//     .portfolio {
-//       .main {
-//         &-portfolio {
-//           .text-right,
-//           .text-left {
-//             width: 43%;
-//           }
-//           .text-left {
-//             padding-left: 10%;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
 
 @media screen and (max-width: 834px) {
   .header {
@@ -1722,11 +1661,12 @@ $pageColor: #f6f5f5;
       span {
         width: 50%;
         top: 57%;
+        border-bottom: 5px solid #fff;
       }
       h3 {
         font-size: 24px;
         top: 59%;
-        letter-spacing: 0.1em;
+        letter-spacing: 0.05em;
         width: 90%;
         margin: 0 auto;
       }
@@ -1904,12 +1844,85 @@ $pageColor: #f6f5f5;
     }
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 414px) {
   .section {
     .swiper-slide {
-      svg {
-        width: 250px;
-        height: 250px;
+      h2 {
+        font-size: 55px;
+        top: 54%;
+      }
+      .img {
+        top: 29%;
+      }
+      .png3 {
+        top: 28%;
+      }
+      .png4 {
+        padding-top: 30px;
+      }
+      span {
+        width: 48%;
+        top: 58%;
+      }
+      h3 {
+        top: 60%;
+      }
+      .svg {
+        top: 44%;
+      }
+    }
+    .swiper-pagination {
+      bottom: 30px !important;
+    }
+  }
+}
+@media screen and (max-width: 393px) {
+  .header {
+    &-logo {
+      width: 25%;
+    }
+  }
+  .section {
+    .swiper-slide {
+      .svg {
+        top: 43%;
+        transform: translate(-50%, -50%) scale(0.85);
+      }
+    }
+  }
+}
+@media screen and (max-width: 375px) {
+  .header {
+    padding: 30px 30px 0;
+    &-logo {
+      width: 30%;
+    }
+  }
+  .section {
+    .swiper-slide {
+      h2 {
+        font-size: 50px;
+      }
+      .img {
+        width: 240px;
+        height: 200px;
+        top: 28%;
+      }
+      // .png3 {
+      //   top: 28%;
+      // }
+      .png4 {
+        padding-top: 40px;
+      }
+      // span {
+      //   width: 48%;
+      //   top: 58%;
+      // }
+      // h3 {
+      //   top: 60%;
+      // }
+      .svg {
+        top: 45%;
       }
     }
   }
