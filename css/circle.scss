@@ -231,8 +231,6 @@ $pageColor: #f6f5f5;
     }
     .svg {
       transform: scale(1.35);
-      width: 500px;
-      height: 500px;
       padding: 0px 10px 15px 30px;
       transition: all 0.3s;
       z-index: 3;
@@ -1117,6 +1115,36 @@ $pageColor: #f6f5f5;
 }
 
 @media screen and (max-width: 1100px) {
+  .section {
+    .swiper-slide {
+      padding-top: 50px;
+      .img {
+        img {
+          width: 90%;
+        }
+      }
+      .png4 {
+        padding-top: 40px;
+      }
+      .svg {
+        transform: scale(1.25);
+        &:hover {
+          transform: scale(1.4);
+        }
+      }
+    }
+    .swiper-pagination {
+      bottom: 40px !important;
+      .swiper-pagination-bullet {
+        &::before {
+          bottom: -10px;
+        }
+        &::after {
+          bottom: -10px;
+        }
+      }
+    }
+  }
   .page {
     .profile {
       .main {
@@ -1229,7 +1257,108 @@ $pageColor: #f6f5f5;
     }
   }
 }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1040px) {
+  .page {
+    .profile {
+      .main {
+        .box-left, .box-right {
+          .trigger {
+            width: 55%;
+          }
+          .message {
+            width: 63%;
+          }
+        }
+        .box-left {
+          .left-content {
+            &:nth-child(1)::after {
+              bottom: -2px;
+              right: 113px;
+            }
+            &:nth-child(3)::after {
+              bottom: 53px;
+              right: 89px;
+            }
+          }
+        }
+        .box-right {
+          .right-content {
+            &:nth-child(1)::after {
+              bottom: -2px;
+              left: 113px;
+            }
+            &:nth-child(2) {
+              &::after {
+                bottom: 61px;
+                left: 69px;
+              }
+            }
+          }
+          ul {
+            padding-left: 180px;
+          }
+        }
+      }
+    }
+    &-img {
+      width: 90%;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    &-logo {
+      width: 25%;
+    }
+  }
+  .section {
+    .swiper-slide {
+      padding-top: 400px;
+      h2 {
+        top: 45%;
+        font-size: 100px;
+      }
+      .img {
+        top: 25%;
+        width: 420px;
+        height: 320px;
+        img {
+          width: 100%;
+        }
+      }
+      .png4 {
+        padding-top: 40px;
+      }
+      span {
+        top: 48%;
+        width: 32%;
+        border-bottom: 8px solid #fff;
+      }
+      h3 {
+        font-size: 32px;
+        top: 50%;
+      }
+      .svg {
+        transform: scale(1.6);
+        &:hover {
+          transform: scale(1.7);
+        }
+      }
+    }
+    .swiper-pagination {
+      bottom: 100px !important;
+      .swiper-pagination-bullet {
+        font-size: 24px;
+        &::before {
+          bottom: -15px;
+        }
+        &::after {
+          bottom: -15px;
+        }
+      }
+    }
+  }
   .page {
     .profile {
       .main {
@@ -1290,35 +1419,98 @@ $pageColor: #f6f5f5;
     }
   }
 }
+// @media screen and (max-width: 980px) {
+//   .page {
+//     .profile {
+//       .main {
+//         h1 {
+//           padding-top: 100px;
+//         }
+//       }
+//     }
+//     .service {
+//       .area {
+//         .circles {
+//           height: 1290px;
+//           li {
+//             animation: service-pc 20s linear infinite;
+//           }
+//         }
+//       }
+//       .main {
+//         &-service {
+//           li {
+//             width: 480px;
+//             height: 480px;
+//             &::before {
+//               top: -35px;
+//               left: -60px;
+//               transform: scale(0.93);
+//             }
+//             &:nth-child(1)::before {
+//               left: -40px;
+//             }
+//             &:nth-child(2)::before {
+//               left: -45px;
+//             }
+//             svg {
+//               width: 560px;
+//             }
+//             .text {
+//               p {
+//                 width: 50%;
+//               }
+//             }
+//           }
+//         }
+//       }
+//     }
+//     .portfolio {
+//       .main {
+//         &-portfolio {
+//           .text-right,
+//           .text-left {
+//             width: 43%;
+//           }
+//           .text-left {
+//             padding-left: 10%;
+//           }
+//         }
+//       }
+//     }
+//   }
+// }
 
-@media screen and (max-width: 896px) {
+@media screen and (max-width: 834px) {
+  .header {
+    &-logo {
+      width: 20%;
+    }
+  }
   .section {
     .swiper-slide {
-      padding-top: 200px;
+      padding-top: 300px;
       h2 {
-        top: 45%;
-        transform: translateX(-50%);
-        // top: 100%;
-        // left: 100%;
-        // transition: all cubic-bezier(.66, .51, 02, .98) 2s;
+        top: 48%;
+      }
+      .img {
+        top: 23%;
+      }
+      .png3 {
+        top: 21%;
+      }
+      .png4 {
+        padding-top: 60px;
       }
       span {
-        width: 30%;
-        top: 53%;
+        width: 40%;
+        top: 52%;
       }
       h3 {
-        top: 57%;
-        font-size: 32px;
-      }
-      svg {
-        transform: scale(1.5);
-        &:hover {
-          transform: scale(1.8);
-        }
+        top: 54%;
       }
     }
     .swiper-pagination {
-      bottom: 100px !important;
       .swiper-pagination-bullet {
         margin: 0 30px !important;
       }
@@ -1489,36 +1681,68 @@ $pageColor: #f6f5f5;
     }
   }
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .section {
     .swiper-slide {
-      padding-top: 150px;
       h2 {
-        font-size: 40px;
-        top: 38%;
+        top: 50%;
+      }
+      span {
+        top: 54%;
+      }
+      h3 {
+        top: 56%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    padding: 30px 40px 0;
+  }
+  .section {
+    .swiper-slide {
+      padding-top: 40px;
+      h2 {
+        font-size: 60px;
+        top: 53%;
+      }
+      .img {
+        width: 260px;
+        height: 220px;
+        top: 30%;
+      }
+      .png3 {
+        top: 29%;
+      }
+      .png4 {
+        padding-top: 40px;
       }
       span {
         width: 50%;
-        top: 45%;
+        top: 57%;
       }
       h3 {
         font-size: 24px;
-        top: 49%;
+        top: 59%;
         letter-spacing: 0.1em;
+        width: 90%;
+        margin: 0 auto;
       }
-      svg {
-        width: 280px;
-        height: 280px;
-        &:hover {
-          transform: scale(1.8);
-        }
+      .svg {
+        position: absolute;
+        content: "";
+        top: 46%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.95);
+        // transform: scale(1);
+        padding: 0 10px 15px 0;
       }
     }
     .swiper-pagination {
-      bottom: 30px !important;
+      bottom: 50px !important;
       .swiper-pagination-bullet {
-        margin: 0 40px !important;
         padding-bottom: 20px;
         &::before {
           bottom: 15px;
@@ -1527,7 +1751,7 @@ $pageColor: #f6f5f5;
           bottom: 15px;
         }
         &:nth-child(3) {
-          margin: 0 25px !important;
+          margin: 0 20px !important;
         }
       }
     }
