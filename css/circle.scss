@@ -1681,9 +1681,11 @@ $pageColor: #f6f5f5;
       }
     }
     .swiper-pagination {
-      bottom: 50px !important;
+      bottom: 80px !important;
       .swiper-pagination-bullet {
+        font-size: 18px;
         padding-bottom: 20px;
+        margin: 0 50px !important;
         &::before {
           bottom: 15px;
         }
@@ -1691,7 +1693,7 @@ $pageColor: #f6f5f5;
           bottom: 15px;
         }
         &:nth-child(3) {
-          margin: 0 20px !important;
+          margin: 0 45px !important;
         }
       }
     }
@@ -1871,9 +1873,9 @@ $pageColor: #f6f5f5;
         top: 44%;
       }
     }
-    .swiper-pagination {
-      bottom: 30px !important;
-    }
+    // .swiper-pagination {
+    //   bottom: 80px !important;
+    // }
   }
 }
 @media screen and (max-width: 393px) {
@@ -1884,9 +1886,23 @@ $pageColor: #f6f5f5;
   }
   .section {
     .swiper-slide {
+      h2 {
+        font-size: 50px;
+      }
       .svg {
         top: 43%;
         transform: translate(-50%, -50%) scale(0.85);
+      }
+      h3 {
+        font-size: 22px;
+        width: 85%;
+      }
+      .swiper-pagination {
+        .swiper-pagination-bullet {
+          &:nth-child(3) {
+            margin: 0 35px !important;
+          }
+        }
       }
     }
   }
@@ -1901,7 +1917,7 @@ $pageColor: #f6f5f5;
   .section {
     .swiper-slide {
       h2 {
-        font-size: 50px;
+        font-size: 40px;
       }
       .img {
         width: 240px;
@@ -1914,6 +1930,9 @@ $pageColor: #f6f5f5;
       .png4 {
         padding-top: 40px;
       }
+      h3 {
+        font-size: 20px;
+      }
       // span {
       //   width: 48%;
       //   top: 58%;
@@ -1923,6 +1942,7 @@ $pageColor: #f6f5f5;
       // }
       .svg {
         top: 45%;
+        transform: translate(-50%, -50%) scale(0.75);
       }
     }
   }
