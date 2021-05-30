@@ -1918,11 +1918,12 @@ $pageColor: #f6f5f5;
     .swiper-slide {
       h2 {
         font-size: 40px;
+        top: 49%;
       }
       .img {
         width: 240px;
         height: 200px;
-        top: 28%;
+        top: 24%;
       }
       // .png3 {
       //   top: 28%;
@@ -1933,15 +1934,15 @@ $pageColor: #f6f5f5;
       h3 {
         font-size: 20px;
       }
-      // span {
-      //   width: 48%;
-      //   top: 58%;
-      // }
-      // h3 {
-      //   top: 60%;
-      // }
+      span {
+        width: 40%;
+        top: 52%;
+      }
+      h3 {
+        top: 54%;
+      }
       .svg {
-        top: 45%;
+        top: 40%;
         transform: translate(-50%, -50%) scale(0.75);
       }
     }
