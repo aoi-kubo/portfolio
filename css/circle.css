@@ -1701,8 +1701,8 @@
             transform: scale(1.6);
   }
   .section .swiper-slide .svg:hover {
-    -webkit-transform: scale(1.7);
-            transform: scale(1.7);
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
   }
   .section .swiper-pagination {
     bottom: 100px !important;
@@ -2038,6 +2038,10 @@
             transform: translate(-50%, -50%) scale(0.95);
     padding: 0 10px 15px 0;
   }
+  .section .swiper-slide .svg:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+  }
   .section .swiper-pagination {
     bottom: 80px !important;
   }
@@ -2268,6 +2272,10 @@
     -webkit-transform: translate(-50%, -50%) scale(0.85);
             transform: translate(-50%, -50%) scale(0.85);
   }
+  .section .swiper-slide .svg:hover {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
   .section .swiper-slide h3 {
     font-size: 22px;
     width: 85%;
@@ -2286,12 +2294,12 @@
   }
   .section .swiper-slide h2 {
     font-size: 40px;
-    top: 49%;
+    top: 47%;
   }
   .section .swiper-slide .img {
     width: 240px;
     height: 200px;
-    top: 24%;
+    top: 20%;
   }
   .section .swiper-slide .png4 {
     padding-top: 40px;
@@ -2301,13 +2309,13 @@
   }
   .section .swiper-slide span {
     width: 40%;
-    top: 52%;
+    top: 50%;
   }
   .section .swiper-slide h3 {
-    top: 54%;
+    top: 52%;
   }
   .section .swiper-slide .svg {
-    top: 40%;
+    top: 36%;
     -webkit-transform: translate(-50%, -50%) scale(0.75);
             transform: translate(-50%, -50%) scale(0.75);
   }

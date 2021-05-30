@@ -1342,7 +1342,7 @@ $pageColor: #f6f5f5;
       .svg {
         transform: scale(1.6);
         &:hover {
-          transform: scale(1.7);
+          transform: scale(1.6);
         }
       }
     }
@@ -1678,6 +1678,9 @@ $pageColor: #f6f5f5;
         transform: translate(-50%, -50%) scale(0.95);
         // transform: scale(1);
         padding: 0 10px 15px 0;
+        &:hover {
+          transform: scale(0.95);
+        }
       }
     }
     .swiper-pagination {
@@ -1892,6 +1895,9 @@ $pageColor: #f6f5f5;
       .svg {
         top: 43%;
         transform: translate(-50%, -50%) scale(0.85);
+        &:hover {
+          transform: scale(0.85);
+        }
       }
       h3 {
         font-size: 22px;
@@ -1918,12 +1924,12 @@ $pageColor: #f6f5f5;
     .swiper-slide {
       h2 {
         font-size: 40px;
-        top: 49%;
+        top: 47%;
       }
       .img {
         width: 240px;
         height: 200px;
-        top: 24%;
+        top: 20%;
       }
       // .png3 {
       //   top: 28%;
@@ -1936,13 +1942,13 @@ $pageColor: #f6f5f5;
       }
       span {
         width: 40%;
-        top: 52%;
+        top: 50%;
       }
       h3 {
-        top: 54%;
+        top: 52%;
       }
       .svg {
-        top: 40%;
+        top: 36%;
         transform: translate(-50%, -50%) scale(0.75);
       }
     }
