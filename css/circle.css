@@ -2317,5 +2317,8 @@
     -webkit-transform: translate(-50%, -50%) scale(0.75);
             transform: translate(-50%, -50%) scale(0.75);
   }
+  .section .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
+    margin: 0 42px !important;
+  }
 }
 /*# sourceMappingURL=circle.css.map */
