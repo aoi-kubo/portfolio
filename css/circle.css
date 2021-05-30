@@ -2294,28 +2294,26 @@
   }
   .section .swiper-slide h2 {
     font-size: 40px;
-    top: 47%;
+    top: 48%;
   }
   .section .swiper-slide .img {
     width: 240px;
     height: 200px;
-    top: 20%;
+    top: 21%;
   }
   .section .swiper-slide .png4 {
     padding-top: 40px;
   }
-  .section .swiper-slide h3 {
-    font-size: 20px;
-  }
   .section .swiper-slide span {
     width: 40%;
-    top: 50%;
+    top: 51%;
   }
   .section .swiper-slide h3 {
-    top: 52%;
+    font-size: 20px;
+    top: 53%;
   }
   .section .swiper-slide .svg {
-    top: 36%;
+    top: 37%;
     -webkit-transform: translate(-50%, -50%) scale(0.75);
             transform: translate(-50%, -50%) scale(0.75);
   }
