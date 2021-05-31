@@ -1999,38 +1999,38 @@
   }
   .section .swiper-slide h2 {
     font-size: 60px;
-    top: 53%;
+    top: 49%;
   }
   .section .swiper-slide .img {
     width: 260px;
     height: 220px;
-    top: 30%;
+    top: 20%;
   }
   .section .swiper-slide .png3 {
-    top: 29%;
+    top: 19%;
   }
   .section .swiper-slide .png4 {
     padding-top: 40px;
   }
   .section .swiper-slide span {
     width: 50%;
-    top: 57%;
+    top: 53%;
     border-bottom: 5px solid #fff;
   }
   .section .swiper-slide h3 {
     font-size: 24px;
-    top: 59%;
+    top: 55%;
     letter-spacing: 0.05em;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
   }
   .section .swiper-slide .svg {
     position: absolute;
     content: "";
-    top: 46%;
+    top: 38%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%) scale(0.95);
-            transform: translate(-50%, -50%) scale(0.95);
+    -webkit-transform: translate(-50%, -50%) scale(0.9);
+            transform: translate(-50%, -50%) scale(0.9);
     padding: 0 10px 15px 0;
   }
   .section .swiper-pagination {
@@ -2039,7 +2039,7 @@
   .section .swiper-pagination .swiper-pagination-bullet {
     font-size: 18px;
     padding-bottom: 20px;
-    margin: 0 35px !important;
+    margin: 0 50px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet::before {
     bottom: 15px;
@@ -2048,7 +2048,7 @@
     bottom: 15px;
   }
   .section .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
-    margin: 0 27px !important;
+    margin: 0 42px !important;
   }
   .section .modalArea .modalContents h3 {
     width: 80%;
@@ -2228,26 +2228,29 @@
 @media screen and (max-width: 414px) {
   .section .swiper-slide h2 {
     font-size: 55px;
-    top: 54%;
+    top: 50%;
   }
   .section .swiper-slide .img {
-    top: 29%;
+    top: 24%;
   }
   .section .swiper-slide .png3 {
-    top: 28%;
-  }
-  .section .swiper-slide .png4 {
-    padding-top: 30px;
+    top: 23%;
   }
   .section .swiper-slide span {
     width: 48%;
-    top: 58%;
+    top: 54%;
   }
   .section .swiper-slide h3 {
-    top: 60%;
+    top: 56%;
   }
   .section .swiper-slide .svg {
-    top: 44%;
+    top: 40%;
+  }
+  .section .swiper-pagination .swiper-pagination-bullet {
+    margin: 0 35px !important;
+  }
+  .section .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
+    margin: 0 28px !important;
   }
 }
 

@@ -1642,37 +1642,37 @@ $pageColor: #f6f5f5;
       padding-top: 40px;
       h2 {
         font-size: 60px;
-        top: 53%;
+        top: 49%;
       }
       .img {
         width: 260px;
         height: 220px;
-        top: 30%;
+        top: 20%;
       }
       .png3 {
-        top: 29%;
+        top: 19%;
       }
       .png4 {
         padding-top: 40px;
       }
       span {
         width: 50%;
-        top: 57%;
+        top: 53%;
         border-bottom: 5px solid #fff;
       }
       h3 {
         font-size: 24px;
-        top: 59%;
+        top: 55%;
         letter-spacing: 0.05em;
-        width: 90%;
+        width: 85%;
         margin: 0 auto;
       }
       .svg {
         position: absolute;
         content: "";
-        top: 46%;
+        top: 38%;
         left: 50%;
-        transform: translate(-50%, -50%) scale(0.95);
+        transform: translate(-50%, -50%) scale(0.9);
         // transform: scale(1);
         padding: 0 10px 15px 0;
       }
@@ -1682,7 +1682,7 @@ $pageColor: #f6f5f5;
       .swiper-pagination-bullet {
         font-size: 18px;
         padding-bottom: 20px;
-        margin: 0 35px !important;
+        margin: 0 50px !important;
         &::before {
           bottom: 15px;
         }
@@ -1690,7 +1690,7 @@ $pageColor: #f6f5f5;
           bottom: 15px;
         }
         &:nth-child(3) {
-          margin: 0 27px !important;
+          margin: 0 42px !important;
         }
       }
     }
@@ -1848,31 +1848,39 @@ $pageColor: #f6f5f5;
     .swiper-slide {
       h2 {
         font-size: 55px;
-        top: 54%;
+        top: 50%;
       }
       .img {
-        top: 29%;
+        top: 24%;
       }
       .png3 {
-        top: 28%;
+        top: 23%;
       }
-      .png4 {
-        padding-top: 30px;
-      }
+      // .png4 {
+      //   padding-top: 30px;
+      // }
       span {
         width: 48%;
-        top: 58%;
+        top: 54%;
       }
       h3 {
-        top: 60%;
+        top: 56%;
       }
       .svg {
-        top: 44%;
+        top: 40%;
       }
     }
     // .swiper-pagination {
     //   bottom: 80px !important;
     // }
+    .swiper-pagination {
+      .swiper-pagination-bullet {
+        margin: 0 35px !important;
+        &:nth-child(3) {
+          margin: 0 28px !important;
+        }
+      }
+    }
   }
 }
 @media screen and (max-width: 393px) {
