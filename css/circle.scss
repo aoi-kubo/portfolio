@@ -1134,7 +1134,7 @@ $pageColor: #f6f5f5;
       }
     }
     .swiper-pagination {
-      bottom: 40px !important;
+      bottom: 60px !important;
       .swiper-pagination-bullet {
         &::before {
           bottom: -10px;
@@ -1682,7 +1682,7 @@ $pageColor: #f6f5f5;
       .swiper-pagination-bullet {
         font-size: 18px;
         padding-bottom: 20px;
-        margin: 0 50px !important;
+        margin: 0 35px !important;
         &::before {
           bottom: 15px;
         }
@@ -1690,7 +1690,7 @@ $pageColor: #f6f5f5;
           bottom: 15px;
         }
         &:nth-child(3) {
-          margin: 0 45px !important;
+          margin: 0 27px !important;
         }
       }
     }
@@ -1895,6 +1895,7 @@ $pageColor: #f6f5f5;
         width: 85%;
       }
       .swiper-pagination {
+        margin: 0 40px !important;
         .swiper-pagination-bullet {
           &:nth-child(3) {
             margin: 0 35px !important;
@@ -1939,13 +1940,6 @@ $pageColor: #f6f5f5;
       .svg {
         top: 37%;
         transform: translate(-50%, -50%) scale(0.75);
-      }
-    }
-    .swiper-pagination {
-      .swiper-pagination-bullet {
-        &:nth-child(3) {
-          margin: 0 42px !important;
-        }
       }
     }
   }

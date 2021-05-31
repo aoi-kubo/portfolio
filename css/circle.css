@@ -1537,7 +1537,7 @@
     pointer-events: none;
   }
   .section .swiper-pagination {
-    bottom: 40px !important;
+    bottom: 60px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet::before {
     bottom: -10px;
@@ -2039,7 +2039,7 @@
   .section .swiper-pagination .swiper-pagination-bullet {
     font-size: 18px;
     padding-bottom: 20px;
-    margin: 0 50px !important;
+    margin: 0 35px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet::before {
     bottom: 15px;
@@ -2048,7 +2048,7 @@
     bottom: 15px;
   }
   .section .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
-    margin: 0 45px !important;
+    margin: 0 27px !important;
   }
   .section .modalArea .modalContents h3 {
     width: 80%;
@@ -2267,6 +2267,9 @@
     font-size: 22px;
     width: 85%;
   }
+  .section .swiper-slide .swiper-pagination {
+    margin: 0 40px !important;
+  }
   .section .swiper-slide .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
     margin: 0 35px !important;
   }
@@ -2303,9 +2306,6 @@
     top: 37%;
     -webkit-transform: translate(-50%, -50%) scale(0.75);
             transform: translate(-50%, -50%) scale(0.75);
-  }
-  .section .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
-    margin: 0 42px !important;
   }
 }
 /*# sourceMappingURL=circle.css.map */
