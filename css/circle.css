@@ -2352,7 +2352,7 @@
             transform: translate(-50%, -50%) scale(0.75);
   }
   .section .modalArea .modalWrapper {
-    padding: 10px 20px;
+    padding: 10px 20px 10px 25px;
   }
   .section .modalArea .modalContents h3 {
     font-size: 16px;
