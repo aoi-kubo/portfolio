@@ -2353,6 +2353,7 @@
   }
   .section .modalArea .modalWrapper {
     padding: 10px 20px 10px 25px;
+    top: 45%;
   }
   .section .modalArea .modalContents h3 {
     font-size: 16px;
