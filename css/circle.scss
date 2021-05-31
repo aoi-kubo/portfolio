@@ -1988,6 +1988,9 @@ $pageColor: #f6f5f5;
       }
     }
     .modalArea {
+      .modalWrapper {
+        padding: 10px 20px;
+      }
       .modalContents {
         // font-size: 16px;
         h3 {
@@ -2005,7 +2008,7 @@ $pageColor: #f6f5f5;
               line-height: 28px;
             }
             a {
-              font-size: 16px;
+              font-size: 18px;
             }
           }
         }

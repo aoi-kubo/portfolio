@@ -2351,6 +2351,9 @@
     -webkit-transform: translate(-50%, -50%) scale(0.75);
             transform: translate(-50%, -50%) scale(0.75);
   }
+  .section .modalArea .modalWrapper {
+    padding: 10px 20px;
+  }
   .section .modalArea .modalContents h3 {
     font-size: 16px;
     padding: 20px 0 15px;
@@ -2365,7 +2368,7 @@
     line-height: 28px;
   }
   .section .modalArea .modalContents ul li a {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=circle.css.map */
