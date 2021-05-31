@@ -1534,8 +1534,7 @@
             transform: scale(1.25);
   }
   .section .swiper-slide .svg:hover {
-    -webkit-transform: scale(1.4);
-            transform: scale(1.4);
+    pointer-events: none;
   }
   .section .swiper-pagination {
     bottom: 40px !important;
@@ -1697,10 +1696,6 @@
     top: 50%;
   }
   .section .swiper-slide .svg {
-    -webkit-transform: scale(1.6);
-            transform: scale(1.6);
-  }
-  .section .swiper-slide .svg:hover {
     -webkit-transform: scale(1.6);
             transform: scale(1.6);
   }
@@ -2038,10 +2033,6 @@
             transform: translate(-50%, -50%) scale(0.95);
     padding: 0 10px 15px 0;
   }
-  .section .swiper-slide .svg:hover {
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
-  }
   .section .swiper-pagination {
     bottom: 80px !important;
   }
@@ -2271,10 +2262,6 @@
     top: 43%;
     -webkit-transform: translate(-50%, -50%) scale(0.85);
             transform: translate(-50%, -50%) scale(0.85);
-  }
-  .section .swiper-slide .svg:hover {
-    -webkit-transform: scale(0.85);
-            transform: scale(0.85);
   }
   .section .swiper-slide h3 {
     font-size: 22px;
