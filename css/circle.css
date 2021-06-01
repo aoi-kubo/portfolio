@@ -1982,7 +1982,7 @@
   .section .swiper-slide span {
     width: 50%;
     top: 53%;
-    border-bottom: 5px solid #fff;
+    border-bottom: 3px solid #fff;
   }
   .section .swiper-slide h3 {
     font-size: 24px;
@@ -2284,6 +2284,7 @@
   .section .swiper-slide span {
     width: 34%;
     top: 51%;
+    border-bottom: 2px solid #fff;
   }
   .section .swiper-slide h3 {
     font-size: 20px;
