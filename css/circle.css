@@ -42,7 +42,7 @@
 
 .section .swiper-slide {
   text-align: center;
-  padding-top: 80px;
+  padding-top: 300px;
   position: relative;
 }
 
@@ -67,15 +67,15 @@
   z-index: 10;
   letter-spacing: 0.07em;
   text-align: center;
-  top: 62%;
   left: 50%;
   width: 100%;
-  font-size: 80px;
+  font-size: 120px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 10;
   font-weight: bold;
   letter-spacing: 0.01rem;
+  top: 52%;
 }
 
 .section .swiper-slide .img {
@@ -86,35 +86,31 @@
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   z-index: 8;
-  width: 380px;
-  height: 300px;
+  width: 540px;
+  height: 430px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.section .swiper-slide .png2 {
+.section .swiper-slide .png3 {
   top: 17%;
 }
 
-.section .swiper-slide .png3 {
-  top: 15%;
-}
-
 .section .swiper-slide .png4 {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .section .swiper-slide span {
   position: absolute;
   content: "";
   width: 25%;
-  top: 68%;
+  top: 57%;
   left: 50%;
   z-index: 10;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   margin: 0 auto;
-  border-bottom: 5px solid #fff;
+  border-bottom: 8px solid #fff;
   z-index: 10;
 }
 
@@ -123,11 +119,10 @@
   z-index: 10;
   letter-spacing: 0.07em;
   text-align: center;
-  top: 62%;
   left: 50%;
   width: 100%;
-  font-size: 24px;
-  top: 70%;
+  font-size: 38px;
+  top: 59%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -137,9 +132,8 @@
 }
 
 .section .swiper-slide .svg {
-  -webkit-transform: scale(1.35);
-          transform: scale(1.35);
-  padding: 0px 10px 15px 30px;
+  -webkit-transform: scale(2);
+          transform: scale(2);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   z-index: 3;
@@ -148,8 +142,8 @@
 .section .swiper-slide .svg:hover {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
 }
 
 .section .swiper-slide .contact {
@@ -1523,147 +1517,105 @@
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1440px) {
   .section .swiper-slide {
-    padding-top: 30px;
+    padding-top: 150px;
   }
-  .section .swiper-slide .img img {
-    width: 85%;
+  .section .swiper-slide h2 {
+    font-size: 120px;
+    top: 56%;
+  }
+  .section .swiper-slide .img {
+    width: 480px;
+    height: 360px;
+    top: 18%;
+  }
+  .section .swiper-slide .png3 {
+    top: 15%;
   }
   .section .swiper-slide .png4 {
-    padding-top: 40px;
+    padding-top: 50px;
+  }
+  .section .swiper-slide span {
+    top: 62%;
+    border-bottom: 8px solid #fff;
   }
   .section .swiper-slide .svg {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-    padding: 0px 10px 15px 10px;
-    pointer-events: none;
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+  }
+  .section .swiper-slide .svg:hover {
+    -webkit-transform: scale(1.75);
+            transform: scale(1.75);
+  }
+  .section .swiper-slide h3 {
+    font-size: 34px;
+    top: 65%;
   }
   .section .swiper-pagination {
-    bottom: 60px !important;
-  }
-  .section .swiper-pagination .swiper-pagination-bullet::before {
-    bottom: -10px;
-  }
-  .section .swiper-pagination .swiper-pagination-bullet::after {
-    bottom: -10px;
-  }
-  .page .profile .main-profile {
-    width: 80%;
-  }
-  .page .profile .main-profile .box-left,
-  .page .profile .main-profile .box-right {
-    width: 50%;
-  }
-  .page .profile .main-profile .box-left .trigger,
-  .page .profile .main-profile .box-right .trigger {
-    width: 50%;
-  }
-  .page .profile .main-profile .box-left .message,
-  .page .profile .main-profile .box-right .message {
-    width: 60%;
-  }
-  .page .profile .main-profile .box-left .left-content::before {
-    position: absolute;
-    content: "";
-    background-color: #35375e;
-    height: 2px;
-    bottom: 20px;
-    width: 73%;
-    width: 68%;
-  }
-  .page .profile .main-profile .box-left .left-content:nth-child(1)::after {
-    width: 15%;
-    bottom: -3px;
-    right: 120px;
-  }
-  .page .profile .main-profile .box-left .left-content:nth-child(3)::after {
-    width: 22%;
-    bottom: 54px;
-    right: 94px;
-  }
-  .page .profile .main-profile .box-left .left-content:nth-child(odd)::before {
-    width: 60%;
-  }
-  .page .profile .main-profile .box-right .right-content::before {
-    width: 60%;
-  }
-  .page .profile .main-profile .box-right .right-content:nth-child(1)::after {
-    width: 15%;
-    bottom: -3px;
-    left: 120px;
-  }
-  .page .profile .main-profile .box-right .right-content:nth-child(2)::after {
-    width: 28%;
-    bottom: 63px;
-    left: 71px;
-  }
-  .page .profile .main-profile .box-right ul {
-    padding-left: 180px;
-  }
-  .page .profile-img {
-    width: 90%;
-  }
-  .page .service .area .circles {
-    height: 1390px;
-  }
-  .page .service .area .circles li {
-    -webkit-animation: service-pc 20s linear infinite;
-            animation: service-pc 20s linear infinite;
-  }
-  .page .service .main-service li {
-    width: 530px;
-    height: 530px;
-  }
-  .page .service .main-service li::before {
-    top: 10px;
-    left: -30px;
-    width: 600px;
-    height: 600px;
-  }
-  .page .service .main-service li svg {
-    width: 600px;
-  }
-  .page .service .main-service li .text p {
-    width: 50%;
-  }
-  .page .portfolio .main-portfolio .text-right,
-  .page .portfolio .main-portfolio .text-left {
-    width: 47%;
-  }
-  .page .portfolio .main-portfolio .text-left {
-    padding-left: 12%;
+    bottom: 80px !important;
   }
 }
 
-@media screen and (max-width: 1040px) {
-  .page .profile .main .box-left .trigger, .page .profile .main .box-right .trigger {
-    width: 55%;
+@media screen and (max-width: 1366px) {
+  .section .swiper-slide {
+    padding-top: 100px;
   }
-  .page .profile .main .box-left .message, .page .profile .main .box-right .message {
-    width: 63%;
+  .section .swiper-slide h2 {
+    font-size: 90px;
   }
-  .page .profile .main .box-left .left-content:nth-child(1)::after {
-    bottom: -2px;
-    right: 113px;
+  .section .swiper-slide .img {
+    width: 420px;
+    height: 340px;
   }
-  .page .profile .main .box-left .left-content:nth-child(3)::after {
-    bottom: 53px;
-    right: 89px;
+  .section .swiper-slide .png3 {
+    top: 14%;
   }
-  .page .profile .main .box-right .right-content:nth-child(1)::after {
-    bottom: -2px;
-    left: 113px;
+  .section .swiper-slide .svg {
+    -webkit-transform: scale(1.45);
+            transform: scale(1.45);
+    padding: 0 10px 15px 20px;
   }
-  .page .profile .main .box-right .right-content:nth-child(2)::after {
-    bottom: 61px;
-    left: 69px;
+  .section .swiper-slide .svg:hover {
+    -webkit-transform: scale(1.55);
+            transform: scale(1.55);
   }
-  .page .profile .main .box-right ul {
-    padding-left: 180px;
+}
+
+@media screen and (max-width: 1100px) {
+  .section .swiper-slide {
+    padding-top: 0px;
   }
-  .page-img {
+  .section .swiper-slide h2 {
+    font-size: 70px;
+    top: 62%;
+  }
+  .section .swiper-slide .img {
+    width: 360px;
+    height: 260px;
+    top: 14%;
+  }
+  .section .swiper-slide .img img {
     width: 90%;
+  }
+  .section .swiper-slide .png3 {
+    top: 10%;
+  }
+  .section .swiper-slide .svg {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+    pointer-events: none;
+  }
+  .section .swiper-slide span {
+    border: 3px solid #fff;
+    top: 69%;
+  }
+  .section .swiper-slide h3 {
+    font-size: 24px;
+    top: 72%;
+  }
+  .section .swiper-pagination {
+    bottom: 50px !important;
   }
 }
 
@@ -1679,18 +1631,18 @@
     font-size: 100px;
   }
   .section .swiper-slide .img {
-    top: 25%;
-    width: 440px;
-    height: 340px;
+    top: 23%;
+    width: 460px;
+    height: 350px;
   }
   .section .swiper-slide .img img {
     width: 100%;
   }
   .section .swiper-slide .png3 {
-    top: 23%;
+    top: 21%;
   }
   .section .swiper-slide .png4 {
-    padding-top: 40px;
+    padding-top: 50px;
   }
   .section .swiper-slide span {
     top: 48%;
@@ -1707,15 +1659,6 @@
   }
   .section .swiper-pagination {
     bottom: 100px !important;
-  }
-  .section .swiper-pagination .swiper-pagination-bullet {
-    font-size: 24px;
-  }
-  .section .swiper-pagination .swiper-pagination-bullet::before {
-    bottom: -15px;
-  }
-  .section .swiper-pagination .swiper-pagination-bullet::after {
-    bottom: -15px;
   }
   .page .profile .main h1 {
     padding-top: 100px;
