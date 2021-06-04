@@ -2342,29 +2342,29 @@
   }
   .section .swiper-slide h2 {
     font-size: 55px;
-    top: 48%;
+    top: 47%;
   }
   .section .swiper-slide .img {
     width: 250px;
-    top: 26%;
+    top: 25%;
   }
   .section .swiper-slide .png3 {
-    top: 24%;
+    top: 23%;
   }
   .section .swiper-slide span {
     width: 48%;
-    top: 52%;
+    top: 51%;
   }
   .section .swiper-slide h3 {
-    top: 54%;
+    top: 53%;
   }
   .section .swiper-slide .svg {
     -webkit-transform: translate(-50%, -50%) scale(0.85);
             transform: translate(-50%, -50%) scale(0.85);
-    top: 39%;
+    top: 38%;
   }
   .section .swiper-pagination {
-    bottom: 120px !important;
+    bottom: 140px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet {
     margin: 0 35px !important;
@@ -2458,41 +2458,40 @@
   }
   .section .swiper-slide h2 {
     font-size: 40px;
-    top: 44%;
+    top: 43%;
   }
   .section .swiper-slide .img {
     width: 220px;
-    top: 23%;
+    top: 22%;
   }
   .section .swiper-slide .png3 {
-    top: 22%;
+    top: 21%;
   }
   .section .swiper-slide .png4 {
     padding-top: 40px;
   }
   .section .swiper-slide span {
     width: 34%;
-    top: 47%;
+    top: 46%;
     border-bottom: 2px solid #fff;
   }
   .section .swiper-slide h3 {
     font-size: 20px;
-    top: 49%;
+    top: 48%;
   }
   .section .swiper-slide .svg {
-    top: 36%;
+    top: 35%;
     -webkit-transform: translate(-50%, -50%) scale(0.75);
             transform: translate(-50%, -50%) scale(0.75);
   }
   .section .swiper-pagination {
-    bottom: 120px !important;
+    bottom: 160px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet {
     font-size: 16px;
-    padding-bottom: 15px;
   }
   .section .swiper-pagination .swiper-pagination-bullet::before, .section .swiper-pagination .swiper-pagination-bullet::after {
-    bottom: 10px;
+    bottom: 15px;
   }
   .section .modalArea .modalWrapper {
     padding: 10px 20px 10px 25px;
@@ -2543,6 +2542,9 @@
   }
   .section .swiper-pagination {
     bottom: 90px !important;
+  }
+  .section .swiper-pagination .swiper-pagination-bullet::before, .section .swiper-pagination .swiper-pagination-bullet::after {
+    bottom: 10px;
   }
 }
 /*# sourceMappingURL=circle.css.map */

@@ -2107,29 +2107,29 @@ $pageColor: #f6f5f5;
     .swiper-slide {
       h2 {
         font-size: 55px;
-        top: 48%;
+        top: 47%;
       }
       .img {
         width: 250px;
-        top: 26%;
+        top: 25%;
       }
       .png3 {
-        top: 24%;
+        top: 23%;
       }
       span {
         width: 48%;
-        top: 52%;
+        top: 51%;
       }
       h3 {
-        top: 54%;
+        top: 53%;
       }
       .svg {
         transform: translate(-50%, -50%) scale(0.85);
-        top: 39%;
+        top: 38%;
       }
     }
     .swiper-pagination {
-      bottom: 120px !important;
+      bottom: 140px !important;
       .swiper-pagination-bullet {
         margin: 0 35px !important;
         &:nth-child(3) {
@@ -2240,39 +2240,38 @@ $pageColor: #f6f5f5;
     .swiper-slide {
       h2 {
         font-size: 40px;
-        top: 44%;
+        top: 43%;
       }
       .img {
         width: 220px;
-        top: 23%;
+        top: 22%;
       }
       .png3 {
-        top: 22%;
+        top: 21%;
       }
       .png4 {
         padding-top: 40px;
       }
       span {
         width: 34%;
-        top: 47%;
+        top: 46%;
         border-bottom: 2px solid #fff;
       }
       h3 {
         font-size: 20px;
-        top: 49%;
+        top: 48%;
       }
       .svg {
-        top: 36%;
+        top: 35%;
         transform: translate(-50%, -50%) scale(0.75);
       }
     }
     .swiper-pagination {
-      bottom: 120px !important;
+      bottom: 160px !important;
       .swiper-pagination-bullet {
         font-size: 16px;
-        padding-bottom: 15px;
         &::before, &::after {
-          bottom: 10px;
+          bottom: 15px;
         }
       }
     }
@@ -2334,6 +2333,11 @@ $pageColor: #f6f5f5;
     }
     .swiper-pagination {
       bottom: 90px !important;
+      .swiper-pagination-bullet {
+        &::before, &::after {
+          bottom: 10px;
+        }
+      }
     }
   }
 }
