@@ -1618,10 +1618,10 @@
     padding-top: 90px;
   }
   .section .swiper-slide h2 {
-    font-size: 85px;
+    font-size: 80px;
   }
   .section .swiper-slide .img {
-    width: 400px;
+    width: 380px;
     top: 14%;
   }
   .section .swiper-slide .png3 {
@@ -1633,11 +1633,14 @@
   .section .swiper-slide .svg {
     position: absolute;
     content: "";
-    top: 41%;
+    top: 40%;
     left: 50%;
-    -webkit-transform: translate(-50%, -50%) scale(1.35);
-            transform: translate(-50%, -50%) scale(1.35);
+    -webkit-transform: translate(-50%, -50%) scale(1.3);
+            transform: translate(-50%, -50%) scale(1.3);
     pointer-events: none;
+  }
+  .section .swiper-slide h3 {
+    font-size: 30px;
   }
   .page .header {
     padding: 20px 60px 0;
@@ -2341,6 +2344,13 @@
   .section .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
     margin: 0 28px !important;
   }
+  .section .modalArea .modalContents ul li i {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  .section .modalArea .modalContents ul li a {
+    font-size: 19px;
+  }
 }
 
 @media screen and (max-width: 414px) and (max-height: 740px) {
@@ -2409,13 +2419,6 @@
   .section .swiper-slide .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
     margin: 0 35px !important;
   }
-  .section .modalArea .modalContents ul li i {
-    -webkit-transform: scale(1.15);
-            transform: scale(1.15);
-  }
-  .section .modalArea .modalContents ul li a {
-    font-size: 19px;
-  }
 }
 
 @media screen and (max-width: 375px) and (max-height: 812px) {
@@ -2481,7 +2484,7 @@
     line-height: 28px;
   }
   .section .modalArea .modalContents ul li a {
-    font-size: 17px;
+    font-size: 16.5px;
   }
 }
 
@@ -2512,26 +2515,6 @@
   }
   .section .swiper-pagination {
     bottom: 90px !important;
-  }
-  .section .modalArea .modalWrapper {
-    padding: 10px 20px 10px 25px;
-    top: 45%;
-  }
-  .section .modalArea .modalContents h3 {
-    font-size: 16px;
-    padding: 20px 0 15px;
-  }
-  .section .modalArea .modalContents p {
-    font-size: 14px;
-    padding-bottom: 10px;
-  }
-  .section .modalArea .modalContents ul li i {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    line-height: 28px;
-  }
-  .section .modalArea .modalContents ul li a {
-    font-size: 17px;
   }
 }
 /*# sourceMappingURL=circle.css.map */
