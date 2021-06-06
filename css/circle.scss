@@ -1336,7 +1336,7 @@ $pageColor: #f6f5f5;
         padding-top: 70px;
         &::before {
           width: 28%;
-          bottom: 3px;
+          bottom: 10px;
         }
       }
     }
@@ -2129,7 +2129,7 @@ $pageColor: #f6f5f5;
       }
     }
     .swiper-pagination {
-      bottom: 140px !important;
+      bottom: 160px !important;
       .swiper-pagination-bullet {
         margin: 0 35px !important;
         &:nth-child(3) {
@@ -2267,7 +2267,7 @@ $pageColor: #f6f5f5;
       }
     }
     .swiper-pagination {
-      bottom: 160px !important;
+      bottom: 180px !important;
       .swiper-pagination-bullet {
         font-size: 16px;
         &::before, &::after {

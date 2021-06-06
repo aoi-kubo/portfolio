@@ -1651,7 +1651,7 @@
   }
   .page .main h1::before {
     width: 28%;
-    bottom: 3px;
+    bottom: 10px;
   }
   .page .profile .main h1::before {
     border-bottom: 8px solid #35375e;
@@ -2364,7 +2364,7 @@
     top: 38%;
   }
   .section .swiper-pagination {
-    bottom: 140px !important;
+    bottom: 160px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet {
     margin: 0 35px !important;
@@ -2485,7 +2485,7 @@
             transform: translate(-50%, -50%) scale(0.75);
   }
   .section .swiper-pagination {
-    bottom: 160px !important;
+    bottom: 180px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet {
     font-size: 16px;
