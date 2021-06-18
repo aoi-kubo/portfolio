@@ -2126,6 +2126,9 @@
     font-family: "Noto Sans JP";
     font-size: 20px;
   }
+  .area {
+    display: none;
+  }
   .page .header {
     padding: 25px 30px 0;
   }
@@ -2201,6 +2204,9 @@
     text-align: center;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3)::before {
+    display: none;
+  }
+  .page .profile .main-profile .box-left .left-content:nth-child(3) span {
     display: none;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(1)::before {
@@ -2615,7 +2621,7 @@
   }
   .page .main h1 {
     font-size: 40px;
-    padding-top: 45px;
+    padding-top: 40px;
   }
   .page .profile .main h1::before {
     border-bottom: 3px solid #35375e;
@@ -2629,6 +2635,7 @@
   }
   .page .profile .main-profile .box-left .left-content .profile-text {
     font-size: 14px;
+    padding-left: 25px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
     bottom: 78px;
@@ -2651,6 +2658,7 @@
   }
   .page .profile .main-profile .box-right .right-content .profile-text {
     font-size: 14px;
+    padding-right: 25px;
   }
   .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
     bottom: -50px;
@@ -2704,7 +2712,7 @@
     width: 40%;
   }
   .page .profile .main-profile {
-    padding-top: 5px;
+    padding-top: 0px;
   }
   .page .profile .main-profile .box-left p, .page .profile .main-profile .box-right p {
     line-height: 18px;

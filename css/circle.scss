@@ -2136,6 +2136,9 @@ $pageColor: #f6f5f5;
       }
     }
   }
+  .area {
+    display: none;
+  }
   .page {
     .header {
       padding: 25px 30px 0;
@@ -2227,6 +2230,9 @@ $pageColor: #f6f5f5;
                   text-align: center;
                 }
                 &::before {
+                  display: none;
+                }
+                span {
                   display: none;
                 }
               }
@@ -2868,7 +2874,7 @@ $pageColor: #f6f5f5;
     .main {
       h1 {
         font-size: 40px;
-        padding-top: 45px;
+        padding-top: 40px;
       }
     }
     .profile {
@@ -2893,6 +2899,7 @@ $pageColor: #f6f5f5;
               .profile-text {
                 font-size: 14px;
                 // padding-bottom: 20px;
+                padding-left: 25px;
               }
               &:nth-child(even)::before {
                 bottom: 78px;
@@ -2921,6 +2928,7 @@ $pageColor: #f6f5f5;
               }
               .profile-text {
                 font-size: 14px;
+                padding-right: 25px;
                 // padding-bottom: 20px;
               }
               &:nth-child(2)::before {
@@ -2992,7 +3000,7 @@ $pageColor: #f6f5f5;
     .profile {
       .main {
         &-profile {
-          padding-top: 5px;
+          padding-top: 0px;
           .box-left, .box-right {
             p {
               line-height: 18px;
