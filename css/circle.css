@@ -2624,11 +2624,11 @@
     font-size: 16.5px;
   }
   .page .header {
-    padding: 10px 25px 0;
+    padding: 15px 25px 0;
   }
   .page .main h1 {
     font-size: 40px;
-    padding-top: 30px;
+    padding-top: 40px;
   }
   .page .profile .main h1::before {
     border-bottom: 3px solid #35375e;
@@ -2704,13 +2704,16 @@
   .section .swiper-pagination .swiper-pagination-bullet::before, .section .swiper-pagination .swiper-pagination-bullet::after {
     bottom: 10px;
   }
+  .page .header {
+    padding: 10px 25px 0;
+  }
   .page .header ul li {
     font-size: 15px;
     margin-left: 35px;
   }
   .page .main h1 {
     font-size: 38px;
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .page .main h1::before {
     width: 40%;
@@ -2738,7 +2741,7 @@
     height: 32px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
-    margin: 20px 0 0 30px;
+    margin: 20px 0 0 25px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
     bottom: 69px;

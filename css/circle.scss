@@ -2758,12 +2758,12 @@ $pageColor: #f6f5f5;
   }
   .page {
     .header {
-      padding: 10px 25px 0;
+      padding: 15px 25px 0;
     }
     .main {
       h1 {
         font-size: 40px;
-        padding-top: 30px;
+        padding-top: 40px;
       }
     }
     .profile {
@@ -2868,6 +2868,7 @@ $pageColor: #f6f5f5;
   }
   .page {
     .header {
+      padding: 10px 25px 0;
       ul li {
         font-size: 15px;
         margin-left: 35px;
@@ -2876,7 +2877,7 @@ $pageColor: #f6f5f5;
     .main {
       h1 {
         font-size: 38px;
-        padding-top: 50px;
+        padding-top: 40px;
         &::before {
           width: 40%;
         }
@@ -2912,7 +2913,7 @@ $pageColor: #f6f5f5;
           .box-left {
             .left-content {
               &:nth-child(3) {
-                margin: 20px 0 0 30px;
+                margin: 20px 0 0 25px;
               }
               &:nth-child(even)::before {
                 bottom: 69px;
