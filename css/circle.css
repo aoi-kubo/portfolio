@@ -2628,7 +2628,7 @@
   }
   .page .main h1 {
     font-size: 40px;
-    padding-top: 40px;
+    padding-top: 30px;
   }
   .page .profile .main h1::before {
     border-bottom: 3px solid #35375e;
