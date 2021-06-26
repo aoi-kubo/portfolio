@@ -598,7 +598,7 @@
 }
 
 .page .profile .main-profile .box-left p, .page .profile .main-profile .box-right p {
-  font-family: "游ゴシック", "Yu Gothic";
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
   font-size: 22px;
   line-height: 23px;
 }
@@ -2266,7 +2266,7 @@
     padding-bottom: 10px;
   }
   .page .profile .main-profile .box-right .right-content .profile-text {
-    padding-right: 20px;
+    padding-right: 25px;
   }
   .page .profile .main-profile .profile-img {
     top: 34%;
@@ -2401,6 +2401,9 @@
             transform: scale(0.9) rotateY(180deg);
     bottom: -70px;
     right: 0;
+  }
+  .page .profile .main-profile .box-right .right-content .box-title {
+    padding: 10px 15px 10px 0;
   }
   .page .profile .main-profile .profile-img {
     top: 36%;
@@ -2541,13 +2544,17 @@
   .page .profile .main-profile .box-right .right-content ul li p {
     font-size: 14px;
   }
-  .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
+  .page .profile .main-profile .box-right .right-content ul li span, .page .profile .main-profile .box-right .right-content ul li span::before {
+    padding: 3px 0;
+  }
+  .page .profile .main-profile .box-right .right-content ul:nth-child(2)::before {
     bottom: -43px;
   }
-  .page .profile .main-profile .box-right .right-content p::after {
+  .page .profile .main-profile .box-right .right-content ul p::after {
     right: -55%;
   }
-  .page .profile .main-profile .profile-img {
+  .page .profile .main-profile .box-right .profile-img {
+    top: 31%;
     width: 190px;
   }
 }
@@ -2617,7 +2624,7 @@
     font-size: 16.5px;
   }
   .page .header {
-    padding: 15px 25px 0;
+    padding: 10px 25px 0;
   }
   .page .main h1 {
     font-size: 40px;
@@ -2653,17 +2660,14 @@
   .page .profile .main-profile .box-right .right-content ul {
     padding-left: 40px;
   }
-  .page .profile .main-profile .box-right .right-content ul li span, .page .profile .main-profile .box-right .right-content ul li span::before {
-    padding: 3px 0;
-  }
-  .page .profile .main-profile .box-right .right-content .profile-text {
+  .page .profile .main-profile .box-right .profile-text {
     font-size: 14px;
     padding-right: 25px;
   }
-  .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
-    bottom: -50px;
+  .page .profile .main-profile .box-right:nth-child(2)::before {
+    bottom: -42px;
   }
-  .page .profile .main-profile .profile-img {
+  .page .profile .main .profile-img {
     top: 36%;
     width: 185px;
   }

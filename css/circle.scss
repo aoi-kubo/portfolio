@@ -539,7 +539,7 @@ $pageColor: #f6f5f5;
         .box-left, .box-right {
           width: 45%;
           p {
-            font-family: "游ゴシック", "Yu Gothic";
+            font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
             font-size: 22px;
             line-height: 23px;
             span {
@@ -2292,7 +2292,7 @@ $pageColor: #f6f5f5;
                 }
               }
               .profile-text {
-                padding-right: 20px;
+                padding-right: 25px;
               }
             }
           }
@@ -2357,126 +2357,6 @@ $pageColor: #f6f5f5;
       }
     }
   }
-  // .page {
-  //   .header {
-  //     padding: 40px 30px 0;
-  //     &-logo {
-  //       width: 30%;
-  //     }
-  //   }
-  //   .profile {
-  //     .main {
-  //       &-profile {
-  //         width: 78%;
-  //         margin: 0 auto;
-  //         display: block;
-  //         .box-left {
-  //           width: 100%;
-  //           margin: 0 auto;
-  //           font-size: 16px;
-  //         }
-  //         .box-right {
-  //           width: 350px;
-  //           margin: 0 auto;
-  //         }
-  //         .box-left {
-  //           padding: 90px 0 40px;
-  //           display: flex;
-  //           &_text {
-  //             padding-left: 10px;
-  //             width: 360px;
-  //           }
-  //           p {
-  //             width: 150px;
-  //           }
-  //         }
-  //         .box-right {
-  //           top: 12%;
-  //           left: 15%;
-  //           z-index: 2;
-  //           img {
-  //             animation: blob 20s infinite;
-  //             width: 100%;
-  //           }
-  //         }
-  //       }
-  //     }
-  //   }
-  //   .service {
-  //     .area {
-  //       .circles {
-  //         height: 2010px;
-  //         li {
-  //           animation: circle-portfolio 20s linear infinite;
-  //         }
-  //       }
-  //     }
-  //     .main {
-  //       h1 {
-  //         font-size: 60px;
-  //       }
-  //     }
-  //   }
-  //   .portfolio {
-  //     .main {
-  //       h1 {
-  //         font-size: 60px;
-  //       }
-  //       &-portfolio {
-  //         display: block;
-  //         .svg-first,
-  //         .svg-third {
-  //           @include svg-bg;
-  //           transform: scale(1);
-  //           left: -100px;
-  //           &::before {
-  //             @include portfolio;
-  //             transform: translateY(-50%) scale(0.9);
-  //             left: 0px;
-  //           }
-  //           svg {
-  //             @include svg;
-  //             left: -50px;
-  //           }
-  //         }
-  //         .svg-third {
-  //           &::before {
-  //             transform: translateY(-50%) scale(0.9);
-  //           }
-  //         }
-  //         .svg-second,
-  //         .svg-fourth {
-  //           @include svg-bg;
-  //           &::before {
-  //             @include portfolio;
-  //             transform: translateY(-50%) scale(0.9);
-  //             right: -80px;
-  //           }
-  //           svg {
-  //             @include svg;
-  //             right: -100px;
-  //           }
-  //         }
-  //         .svg-fourth {
-  //           &::before {
-  //             background: url(../img/c-work4.png) center center / cover;
-  //           }
-  //         }
-  //         .text-right,
-  //         .text-left {
-  //           width: 46%;
-  //           p {
-  //             width: 80%;
-  //             padding: 20px 0;
-  //           }
-  //         }
-  //         .text-left {
-  //           padding-left: 8%;
-  //         }
-  //       }
-  //     }
-  //   }
-  // }
 }
 @media screen and (max-width: 414px) and (max-height: 900px) {
   .header {
@@ -2589,6 +2469,9 @@ $pageColor: #f6f5f5;
                 transform: scale(0.9) rotateY(180deg);
                 bottom: -70px;
                 right: 0;
+              }
+              .box-title {
+                padding: 10px 15px 10px 0;
               }
             }
           }
@@ -2773,10 +2656,14 @@ $pageColor: #f6f5f5;
               }
               ul {
                 padding-left: 40px;
-                li p {
-                  font-size: 14px;
+                li {
+                  p {
+                    font-size: 14px;
+                  }
+                  span, span::before {
+                    padding: 3px 0;
+                  }
                 }
-              }
               &:nth-child(2)::before {
                 bottom: -43px;
               }
@@ -2786,12 +2673,14 @@ $pageColor: #f6f5f5;
             }
           }
           .profile-img {
+            top: 31%;
             width: 190px;
           }
         }
       }
     }
   }
+}
 }
 @media screen and (max-width: 375px) and (max-height: 812px) {
   .header {
@@ -2869,7 +2758,7 @@ $pageColor: #f6f5f5;
   }
   .page {
     .header {
-      padding: 15px 25px 0;
+      padding: 10px 25px 0;
     }
     .main {
       h1 {
@@ -2920,10 +2809,6 @@ $pageColor: #f6f5f5;
             .right-content {
               ul {
                 padding-left: 40px;
-                li {
-                  span, span::before {
-                    padding: 3px 0;
-                  }
                 }
               }
               .profile-text {
@@ -2932,7 +2817,7 @@ $pageColor: #f6f5f5;
                 // padding-bottom: 20px;
               }
               &:nth-child(2)::before {
-                bottom: -50px;
+                bottom: -42px;
               }
             }
           }
@@ -2944,7 +2829,7 @@ $pageColor: #f6f5f5;
       }
     }
   }
-}
+
 @media screen and (max-width: 375px) and (max-height: 667px) {
   .section {
     .swiper-slide {
