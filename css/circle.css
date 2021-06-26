@@ -697,11 +697,11 @@
   left: 60px;
 }
 
-.page .profile .main-profile .box-left .left-content p::after {
+.page .profile .main-profile .box-left .left-content .box-title p::after {
   left: -75%;
 }
 
-.page .profile .main-profile .box-left .left-content h4 {
+.page .profile .main-profile .box-left .left-content .box-title h4 {
   padding: 0 20px 0 30px;
 }
 
@@ -735,15 +735,15 @@
   bottom: 30px;
 }
 
-.page .profile .main-profile .box-right .right-content p {
+.page .profile .main-profile .box-right .right-content .box-title p {
   display: inline-block;
 }
 
-.page .profile .main-profile .box-right .right-content p::after {
+.page .profile .main-profile .box-right .right-content .box-title p::after {
   right: -65%;
 }
 
-.page .profile .main-profile .box-right .right-content h4 {
+.page .profile .main-profile .box-right .right-content .box-title h4 {
   padding: 0 30px 0 20px;
 }
 
@@ -2522,7 +2522,7 @@
     font-size: 20px;
     line-height: 24px;
   }
-  .page .profile .main-profile .box-left .left-content h4 {
+  .page .profile .main-profile .box-left .left-content .box-title h4 {
     padding: 0 10px 0 15px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
@@ -2535,7 +2535,7 @@
   .page .profile .main-profile .box-left .left-content p::after {
     left: -80%;
   }
-  .page .profile .main-profile .box-right .right-content h4 {
+  .page .profile .main-profile .box-right .right-content .box-title h4 {
     padding: 0 15px 0 10px;
   }
   .page .profile .main-profile .box-right .right-content ul {
@@ -2736,17 +2736,30 @@
     padding-bottom: 10px;
   }
   .page .profile .main-profile .box-left .left-content .box-title p::after, .page .profile .main-profile .box-left .right-content .box-title p::after, .page .profile .main-profile .box-right .left-content .box-title p::after, .page .profile .main-profile .box-right .right-content .box-title p::after {
-    top: -25%;
-    width: 28px;
-    height: 28px;
+    top: -30%;
+    width: 30px;
+    height: 30px;
+  }
+  .page .profile .main-profile .box-left .left-content:nth-child(1) .box-title h4 {
+    padding: 0 10px 0 18px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
     margin: 20px 0 0 25px;
   }
+  .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title h4 {
+    padding: 0 10px 0 13px;
+  }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
     bottom: 69px;
   }
-  .page .profile .main-profile .box-left .left-content p::after {
+  .page .profile .main-profile .box-left .left-content:nth-child(2) .box-title h4 {
+    padding: 0 10px 0 13px;
+  }
+  .page .profile .main-profile .box-left .left-content .box-title p::before {
+    top: -15%;
+    left: -62%;
+  }
+  .page .profile .main-profile .box-left .left-content .box-title p::after {
     left: -75%;
   }
   .page .profile .main-profile .box-right .right-content ul li p {
@@ -2755,8 +2768,12 @@
   .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
     bottom: -51px;
   }
-  .page .profile .main-profile .box-right .right-content p::after {
-    right: -50%;
+  .page .profile .main-profile .box-right .right-content .box-title p::before {
+    top: -15%;
+    left: -70%;
+  }
+  .page .profile .main-profile .box-right .right-content .box-title p::after {
+    right: -60%;
   }
   .page .profile .main-profile .profile-img {
     width: 175px;
