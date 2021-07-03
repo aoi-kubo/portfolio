@@ -2511,9 +2511,11 @@
   }
   .page .profile .main-profile .box-left .left-content .box-title p::before, .page .profile .main-profile .box-left .right-content .box-title p::before, .page .profile .main-profile .box-right .left-content .box-title p::before, .page .profile .main-profile .box-right .right-content .box-title p::before {
     width: 24px;
+    height: 24px;
   }
   .page .profile .main-profile .box-left .left-content .box-title p::after, .page .profile .main-profile .box-left .right-content .box-title p::after, .page .profile .main-profile .box-right .left-content .box-title p::after, .page .profile .main-profile .box-right .right-content .box-title p::after {
     width: 30px;
+    height: 30px;
     top: -23%;
   }
   .page .profile .main-profile .box-left .left-content .box-title h4, .page .profile .main-profile .box-left .right-content .box-title h4, .page .profile .main-profile .box-right .left-content .box-title h4, .page .profile .main-profile .box-right .right-content .box-title h4 {

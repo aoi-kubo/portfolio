@@ -2621,9 +2621,11 @@ $pageColor: #f6f5f5;
                 p {
                   &::before {
                     width: 24px;
+                    height: 24px;
                   }
                   &::after {
                     width: 30px;
+                    height: 30px;
                     top: -23%;
                   }
                 }
