@@ -2900,7 +2900,8 @@ $pageColor: #f6f5f5;
               line-height: 18px;
             }
             .trigger {
-              width: 80%;
+              width: 85%;
+              padding-left: 5px;
             }
             .left-content, .right-content {
               .profile-text {
@@ -2940,6 +2941,7 @@ $pageColor: #f6f5f5;
                 }
               }
               .box-title {
+                padding: 10px 0 15px 15px;
                 p {
                   &::before {
                     top: -15%;
@@ -2949,6 +2951,9 @@ $pageColor: #f6f5f5;
                     left: -75%;
                   }
                 }
+              }
+              .profile-text {
+                padding-left: 20px;
               }
             }
           }
@@ -2963,6 +2968,7 @@ $pageColor: #f6f5f5;
                 bottom: -51px;
               }
               .box-title {
+                padding: 10px 15px 15px 0;
                 p {
                   &::before {
                     top: -15%;
@@ -2972,6 +2978,9 @@ $pageColor: #f6f5f5;
                     right: -60%;
                   }
                 }
+              }
+              .profile-text {
+                padding-right: 20px;
               }
             }
           }

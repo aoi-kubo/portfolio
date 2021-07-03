@@ -2725,7 +2725,8 @@
     line-height: 18px;
   }
   .page .profile .main-profile .box-left .trigger, .page .profile .main-profile .box-right .trigger {
-    width: 80%;
+    width: 85%;
+    padding-left: 5px;
   }
   .page .profile .main-profile .box-left .left-content .profile-text, .page .profile .main-profile .box-left .right-content .profile-text, .page .profile .main-profile .box-right .left-content .profile-text, .page .profile .main-profile .box-right .right-content .profile-text {
     font-size: 13px;
@@ -2755,6 +2756,9 @@
   .page .profile .main-profile .box-left .left-content:nth-child(2) .box-title h4 {
     padding: 0 10px 0 13px;
   }
+  .page .profile .main-profile .box-left .left-content .box-title {
+    padding: 10px 0 15px 15px;
+  }
   .page .profile .main-profile .box-left .left-content .box-title p::before {
     top: -15%;
     left: -62%;
@@ -2762,11 +2766,17 @@
   .page .profile .main-profile .box-left .left-content .box-title p::after {
     left: -75%;
   }
+  .page .profile .main-profile .box-left .left-content .profile-text {
+    padding-left: 20px;
+  }
   .page .profile .main-profile .box-right .right-content ul li p {
     font-size: 13px;
   }
   .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
     bottom: -51px;
+  }
+  .page .profile .main-profile .box-right .right-content .box-title {
+    padding: 10px 15px 15px 0;
   }
   .page .profile .main-profile .box-right .right-content .box-title p::before {
     top: -15%;
@@ -2774,6 +2784,9 @@
   }
   .page .profile .main-profile .box-right .right-content .box-title p::after {
     right: -60%;
+  }
+  .page .profile .main-profile .box-right .right-content .profile-text {
+    padding-right: 20px;
   }
   .page .profile .main-profile .profile-img {
     width: 175px;
