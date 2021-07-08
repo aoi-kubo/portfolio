@@ -608,6 +608,7 @@
 }
 
 .page .profile .main-profile .box-left .trigger, .page .profile .main-profile .box-right .trigger {
+  display: inline-block;
   width: 60%;
 }
 
@@ -2094,6 +2095,9 @@
     -webkit-transform: translate(-50%, -50%) scale(0.9);
             transform: translate(-50%, -50%) scale(0.9);
   }
+  .section .swiper-pagination {
+    bottom: 140px !important;
+  }
   .section .swiper-pagination .swiper-pagination-bullet {
     font-size: 18px;
     padding-bottom: 20px;
@@ -2107,6 +2111,9 @@
   }
   .section .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
     margin: 0 42px !important;
+  }
+  .section .modalArea .modalWrapper {
+    top: 45%;
   }
   .section .modalArea .modalContents h3 {
     width: 80%;
@@ -2197,10 +2204,10 @@
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
     width: 175%;
-    margin: 5px 0 0 40px;
+    margin: 0 0 0 40px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
-    padding: 20px 0 10px;
+    padding: 0 0 10px;
     text-align: center;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3)::before {
@@ -2208,6 +2215,9 @@
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) span {
     display: none;
+  }
+  .page .profile .main-profile .box-left .left-content:nth-child(3) span:nth-child(2), .page .profile .main-profile .box-left .left-content:nth-child(3) span:nth-child(3) {
+    display: inline-block;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(1)::before {
     content: url(../img/line-s.png);
@@ -2227,7 +2237,7 @@
     -webkit-transform: scale(1);
             transform: scale(1);
     left: 0px;
-    bottom: 76px;
+    bottom: 77px;
     z-index: -2;
   }
   .page .profile .main-profile .box-left .left-content .profile-text {
@@ -2262,19 +2272,40 @@
     bottom: -47px;
     right: 0px;
   }
-  .page .profile .main-profile .box-right .right-content:nth-child(2) .box-title {
-    padding-bottom: 10px;
-  }
   .page .profile .main-profile .box-right .right-content .profile-text {
     padding-right: 25px;
   }
   .page .profile .main-profile .profile-img {
-    top: 34%;
+    top: 36%;
     left: 22%;
     width: 210px;
     z-index: -1;
     -webkit-filter: brightness(1.2);
             filter: brightness(1.2);
+  }
+  .page .modalArea .modalWrapper {
+    width: 70%;
+    top: 45%;
+    padding: 30px 20px 20px 25px;
+  }
+  .page .modalArea .modalContents h3 {
+    padding: 0 0 20px 0;
+    width: 80%;
+    font-size: 18px;
+  }
+  .page .modalArea .modalContents p {
+    font-weight: normal;
+    font-size: 16px;
+    padding-bottom: 18px;
+  }
+  .page .modalArea .modalContents ul li i {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    line-height: 34px;
+  }
+  .page .modalArea .modalContents ul li a {
+    font-family: "Noto Sans JP";
+    font-size: 19px;
   }
   .page .service .area .circles {
     height: 1290px;
@@ -2314,35 +2345,35 @@
   }
 }
 
-@media screen and (max-width: 414px) and (max-height: 900px) {
+@media screen and (max-width: 414px) and (max-height: 896px) {
   .header-logo {
     width: 28%;
   }
   .section .swiper-slide h2 {
     font-size: 55px;
-    top: 47%;
+    top: 46%;
   }
   .section .swiper-slide .img {
     width: 250px;
-    top: 25%;
+    top: 24%;
   }
   .section .swiper-slide .png3 {
-    top: 23%;
+    top: 22%;
   }
   .section .swiper-slide span {
     width: 48%;
-    top: 51%;
+    top: 50%;
   }
   .section .swiper-slide h3 {
-    top: 53%;
+    top: 52%;
   }
   .section .swiper-slide .svg {
     -webkit-transform: translate(-50%, -50%) scale(0.85);
             transform: translate(-50%, -50%) scale(0.85);
-    top: 38%;
+    top: 37%;
   }
   .section .swiper-pagination {
-    bottom: 160px !important;
+    bottom: 180px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet {
     margin: 0 35px !important;
@@ -2355,7 +2386,7 @@
             transform: scale(1.15);
   }
   .section .modalArea .modalContents ul li a {
-    font-size: 19px;
+    font-size: 18px;
   }
   .page .header {
     padding: 20px 30px 0;
@@ -2364,14 +2395,14 @@
     font-size: 17px;
   }
   .page .main h1 {
-    font-size: 50px;
-    padding-top: 50px;
+    font-size: 55px;
+    padding-top: 55px;
   }
   .page .main h1::before {
     width: 48%;
   }
   .page .profile .main-profile {
-    padding-top: 0px;
+    padding-top: 10px;
   }
   .page .profile .main-profile .box-left .trigger, .page .profile .main-profile .box-right .trigger {
     width: 90%;
@@ -2386,14 +2417,14 @@
     bottom: -70px;
     left: 0;
   }
+  .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
+    bottom: 75px;
+  }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
     width: 180%;
-    margin: 5px 0 0 40px;
+    margin: 5px 0 0 38px;
   }
-  .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
-    padding: 0px 0 10px;
-  }
-  .page .profile .main-profile .box-left .left-content:nth-child(3) span {
+  .page .profile .main-profile .box-left .left-content:nth-child(3) span:nth-child(3) {
     display: none;
   }
   .page .profile .main-profile .box-right .right-content::before {
@@ -2406,7 +2437,6 @@
     padding: 10px 15px 10px 0;
   }
   .page .profile .main-profile .profile-img {
-    top: 36%;
     width: 200px;
   }
 }
@@ -2433,7 +2463,7 @@
             transform: translate(-50%, -50%) scale(0.8);
   }
   .section .swiper-pagination {
-    bottom: 100px !important;
+    bottom: 110px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet {
     padding-bottom: 15px;
@@ -2445,10 +2475,11 @@
     padding: 30px 20px 0;
   }
   .page .main h1 {
+    font-size: 50px;
     padding-top: 70px;
   }
-  .page .profile .main-profile {
-    padding-top: 15px;
+  .page .profile .main-profile .box-left .left-content:nth-child(3) {
+    margin: 5px 0 0 40px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) span {
     display: inline-block;
@@ -2486,11 +2517,14 @@
     width: 85%;
     top: 54%;
   }
-  .section .swiper-slide .swiper-pagination {
+  .section .swiper-pagination {
+    bottom: 160px !important;
+  }
+  .section .swiper-pagination .swiper-pagination-bullet {
     margin: 0 40px !important;
   }
-  .section .swiper-slide .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
-    margin: 0 35px !important;
+  .section .swiper-pagination .swiper-pagination-bullet:nth-child(3) {
+    margin: 0 32px !important;
   }
   .page .header {
     padding: 20px 30px 0;
@@ -2526,7 +2560,7 @@
     padding: 0 10px 0 15px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
-    bottom: 63px;
+    bottom: 62px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
     width: 188%;
@@ -2559,6 +2593,12 @@
   .page .profile .main-profile .profile-img {
     top: 34%;
     width: 190px;
+  }
+  .page .modalArea .modalWrapper {
+    top: 44%;
+  }
+  .page .modalArea .modalContents ul li a {
+    font-size: 17.5px;
   }
 }
 
@@ -2607,8 +2647,8 @@
     bottom: 15px;
   }
   .section .modalArea .modalWrapper {
-    padding: 10px 20px 10px 25px;
-    top: 45%;
+    padding: 10px 15px 10px 25px;
+    top: 40%;
   }
   .section .modalArea .modalContents h3 {
     font-size: 16px;
@@ -2616,7 +2656,7 @@
   }
   .section .modalArea .modalContents p {
     font-size: 14px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
   }
   .section .modalArea .modalContents ul li i {
     -webkit-transform: scale(1);
@@ -2673,14 +2713,14 @@
   .page .profile .main-profile .box-right .right-content ul {
     padding-left: 40px;
   }
-  .page .profile .main-profile .box-right .profile-text {
+  .page .profile .main-profile .box-right .right-content .profile-text {
     font-size: 14px;
     padding-right: 25px;
   }
-  .page .profile .main-profile .box-right:nth-child(2)::before {
-    bottom: -42px;
+  .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
+    bottom: -49px;
   }
-  .page .profile .main .profile-img {
+  .page .profile .main-profile .profile-img {
     top: 36%;
     width: 185px;
   }
@@ -2713,6 +2753,9 @@
   }
   .section .swiper-pagination .swiper-pagination-bullet::before, .section .swiper-pagination .swiper-pagination-bullet::after {
     bottom: 10px;
+  }
+  .section .modalArea .modalWrapper {
+    top: 45%;
   }
   .page .header {
     padding: 10px 25px 0;
