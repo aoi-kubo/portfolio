@@ -2803,13 +2803,13 @@
     padding: 0 10px 0 13px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
-    bottom: 74px;
+    bottom: 68px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(2) .box-title h4 {
     padding: 0 10px 0 13px;
   }
   .page .profile .main-profile .box-left .left-content .box-title {
-    padding: 7px 0 15px 15px;
+    padding: 7px 0 10px 15px;
   }
   .page .profile .main-profile .box-left .left-content .box-title p::before {
     top: -15%;
@@ -2828,7 +2828,7 @@
     bottom: -51px;
   }
   .page .profile .main-profile .box-right .right-content .box-title {
-    padding: 7px 15px 15px 0;
+    padding: 7px 15px 10px 0;
   }
   .page .profile .main-profile .box-right .right-content .box-title p::before {
     top: -15%;
