@@ -3006,15 +3006,15 @@
     top: 45%;
   }
   .page .header {
-    padding: 10px 25px 0;
+    padding: 10px 15px 0;
   }
   .page .header ul li {
     font-size: 15px;
     margin-left: 35px;
   }
   .page .main h1 {
-    font-size: 38px;
-    padding-top: 40px;
+    font-size: 35px;
+    padding-top: 35px;
   }
   .page .main h1::before {
     width: 40%;
