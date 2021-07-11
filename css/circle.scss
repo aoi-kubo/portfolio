@@ -2756,6 +2756,10 @@ $pageColor: #f6f5f5;
                   }
                 }
               }
+              &:nth-child(1)::before {
+                transform: scale(0.95);
+                left: 10px;
+              }
               p::after {
                 left: -80%;
               }
@@ -2777,13 +2781,17 @@ $pageColor: #f6f5f5;
               &:nth-child(2)::before {
                 bottom: -57px;
               }
+              &:nth-child(1)::before {
+                transform: scale(0.95) rotateY(180deg);
+                right: 10px;
+              }
               p::after {
                 right: -55%;
               }
             }
           }
           .profile-img {
-            top: 38%;
+            top: 35%;
             width: 190px;
           }
         }
@@ -2913,6 +2921,9 @@ $pageColor: #f6f5f5;
                 padding-top: 15px;
                 padding-bottom: 15px;
               }
+              .profile-text {
+                line-height: 21px;
+              }
             }
           }
           .box-left {
@@ -2938,6 +2949,10 @@ $pageColor: #f6f5f5;
                   }
                 }
               }
+              &:nth-child(1)::before {
+                transform: scale(0.9);
+                right: 0px;
+              }
             }
           }
           .box-right {
@@ -2952,6 +2967,10 @@ $pageColor: #f6f5f5;
               }
               &:nth-child(2)::before {
                 bottom: -49px;
+              }
+              &:nth-child(1)::before {
+                transform: scale(0.9) rotateY(180deg);
+                right: 0px;
               }
             }
           }

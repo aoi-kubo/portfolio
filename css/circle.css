@@ -2794,6 +2794,11 @@
   .page .profile .main-profile .box-left .left-content:nth-child(3) span:nth-child(3) {
     display: none;
   }
+  .page .profile .main-profile .box-left .left-content:nth-child(1)::before {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    left: 10px;
+  }
   .page .profile .main-profile .box-left .left-content p::after {
     left: -80%;
   }
@@ -2809,11 +2814,16 @@
   .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
     bottom: -57px;
   }
+  .page .profile .main-profile .box-right .right-content:nth-child(1)::before {
+    -webkit-transform: scale(0.95) rotateY(180deg);
+            transform: scale(0.95) rotateY(180deg);
+    right: 10px;
+  }
   .page .profile .main-profile .box-right .right-content p::after {
     right: -55%;
   }
   .page .profile .main-profile .profile-img {
-    top: 38%;
+    top: 35%;
     width: 190px;
   }
   .page .modalArea .modalWrapper {
@@ -2915,6 +2925,9 @@
     padding-top: 15px;
     padding-bottom: 15px;
   }
+  .page .profile .main-profile .box-left .left-content .profile-text, .page .profile .main-profile .box-left .right-content .profile-text, .page .profile .main-profile .box-right .left-content .profile-text, .page .profile .main-profile .box-right .right-content .profile-text {
+    line-height: 21px;
+  }
   .page .profile .main-profile .box-left .left-content .profile-text {
     font-size: 14px;
     padding-left: 25px;
@@ -2935,6 +2948,11 @@
   .page .profile .main-profile .box-left .left-content:nth-child(3) span:nth-child(2) {
     display: inline;
   }
+  .page .profile .main-profile .box-left .left-content:nth-child(1)::before {
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+    right: 0px;
+  }
   .page .profile .main-profile .box-right .right-content ul {
     padding-left: 40px;
   }
@@ -2944,6 +2962,11 @@
   }
   .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
     bottom: -49px;
+  }
+  .page .profile .main-profile .box-right .right-content:nth-child(1)::before {
+    -webkit-transform: scale(0.9) rotateY(180deg);
+            transform: scale(0.9) rotateY(180deg);
+    right: 0px;
   }
   .page .profile .main-profile .profile-img {
     top: 35%;
