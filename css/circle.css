@@ -2589,7 +2589,7 @@
     top: 37%;
   }
   .section .swiper-pagination {
-    padding-bottom: 165px !important;
+    padding-bottom: 175px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet {
     margin: 0 35px !important;
@@ -2694,11 +2694,11 @@
     bottom: 10px;
   }
   .page .header {
-    padding: 30px 20px 0;
+    padding: 20px 25px 0;
   }
   .page .main h1 {
     font-size: 50px;
-    padding-top: 70px;
+    padding-top: 55px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
     margin: 5px 0 0 40px;
