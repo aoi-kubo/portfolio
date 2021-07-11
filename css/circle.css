@@ -3031,6 +3031,7 @@
   }
   .page .profile .main-profile .box-left .left-content .profile-text, .page .profile .main-profile .box-left .right-content .profile-text, .page .profile .main-profile .box-right .left-content .profile-text, .page .profile .main-profile .box-right .right-content .profile-text {
     font-size: 13px;
+    line-height: 20px;
   }
   .page .profile .main-profile .box-left .left-content .box-title, .page .profile .main-profile .box-left .right-content .box-title, .page .profile .main-profile .box-right .left-content .box-title, .page .profile .main-profile .box-right .right-content .box-title {
     padding-top: 10px;
@@ -3045,7 +3046,7 @@
     padding: 0 10px 0 18px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
-    margin: 8px 0 0 40px;
+    margin: 8px 0 0 45px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
     padding: 0 0 10px;

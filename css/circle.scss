@@ -3055,6 +3055,7 @@ $pageColor: #f6f5f5;
               .profile-text {
                 font-size: 13px;
                 // padding-bottom: 15px;
+                line-height: 20px;
               }
               .box-title {
                 padding-top: 10px;
@@ -3075,7 +3076,7 @@ $pageColor: #f6f5f5;
                 }
               }
               &:nth-child(3) {
-                margin: 8px 0 0 40px;
+                margin: 8px 0 0 45px;
                 .box-title{
                   padding: 0 0 10px;
                   h4 {
