@@ -2977,7 +2977,7 @@ $pageColor: #f6f5f5;
       }
     }
     .swiper-pagination {
-      padding-bottom: 55px !important;
+      padding-bottom: 70px !important;
       .swiper-pagination-bullet {
         &::before, &::after {
           bottom: 10px;
@@ -3044,9 +3044,12 @@ $pageColor: #f6f5f5;
               }
               &:nth-child(3) {
                 margin: 8px 0 0 40px;
-                .box-title h4 {
-                  padding: 0 10px 0 13px;
-                }
+                .box-title{
+                  padding: 0 0 10px;
+                  h4 {
+                    padding: 0 10px 0 13px;
+                  }
+                } 
               }
               &:nth-child(even)::before {
                 bottom: 68px;

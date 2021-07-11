@@ -2965,7 +2965,7 @@
             transform: translate(-50%, -50%) scale(0.7);
   }
   .section .swiper-pagination {
-    padding-bottom: 55px !important;
+    padding-bottom: 70px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet::before, .section .swiper-pagination .swiper-pagination-bullet::after {
     bottom: 10px;
@@ -3014,6 +3014,9 @@
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
     margin: 8px 0 0 40px;
+  }
+  .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
+    padding: 0 0 10px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title h4 {
     padding: 0 10px 0 13px;
