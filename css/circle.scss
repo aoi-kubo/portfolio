@@ -3042,7 +3042,7 @@ $pageColor: #f6f5f5;
     .profile {
       .main {
         &-profile {
-          padding-top: 0px;
+          padding-top: 3px;
           .box-left, .box-right {
             p {
               line-height: 18px;
@@ -3054,7 +3054,7 @@ $pageColor: #f6f5f5;
             .left-content, .right-content {
               .profile-text {
                 font-size: 13px;
-                // padding-bottom: 15px;
+                padding-bottom: 13px;
                 line-height: 20px;
               }
               .box-title {
@@ -3072,7 +3072,7 @@ $pageColor: #f6f5f5;
             .left-content {
               &:nth-child(1) {
                 .box-title h4 {
-                  padding: 0 10px 0 18px;
+                  padding: 0 10px 0 15px;
                 }
               }
               &:nth-child(3) {
@@ -3080,7 +3080,7 @@ $pageColor: #f6f5f5;
                 .box-title{
                   padding: 0 0 10px;
                   h4 {
-                    padding: 0 10px 0 13px;
+                    padding: 0 10px 0 15px;
                   }
                 } 
               }
@@ -3093,7 +3093,7 @@ $pageColor: #f6f5f5;
                 }
               }
               .box-title {
-                padding: 7px 0 10px 15px;
+                padding: 5px 0 8px 15px;
                 p {
                   &::before {
                     top: -15%;
@@ -3120,7 +3120,7 @@ $pageColor: #f6f5f5;
                 bottom: -61px;
               }
               .box-title {
-                padding: 7px 15px 10px 0;
+                padding: 5px 15px 8px 0;
                 p {
                   &::before {
                     top: -15%;

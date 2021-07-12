@@ -3020,7 +3020,7 @@
     width: 40%;
   }
   .page .profile .main-profile {
-    padding-top: 0px;
+    padding-top: 3px;
   }
   .page .profile .main-profile .box-left p, .page .profile .main-profile .box-right p {
     line-height: 18px;
@@ -3031,6 +3031,7 @@
   }
   .page .profile .main-profile .box-left .left-content .profile-text, .page .profile .main-profile .box-left .right-content .profile-text, .page .profile .main-profile .box-right .left-content .profile-text, .page .profile .main-profile .box-right .right-content .profile-text {
     font-size: 13px;
+    padding-bottom: 13px;
     line-height: 20px;
   }
   .page .profile .main-profile .box-left .left-content .box-title, .page .profile .main-profile .box-left .right-content .box-title, .page .profile .main-profile .box-right .left-content .box-title, .page .profile .main-profile .box-right .right-content .box-title {
@@ -3043,7 +3044,7 @@
     height: 30px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(1) .box-title h4 {
-    padding: 0 10px 0 18px;
+    padding: 0 10px 0 15px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
     margin: 8px 0 0 45px;
@@ -3052,7 +3053,7 @@
     padding: 0 0 10px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title h4 {
-    padding: 0 10px 0 13px;
+    padding: 0 10px 0 15px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
     bottom: 68px;
@@ -3061,7 +3062,7 @@
     padding: 0 10px 0 13px;
   }
   .page .profile .main-profile .box-left .left-content .box-title {
-    padding: 7px 0 10px 15px;
+    padding: 5px 0 8px 15px;
   }
   .page .profile .main-profile .box-left .left-content .box-title p::before {
     top: -15%;
@@ -3080,7 +3081,7 @@
     bottom: -61px;
   }
   .page .profile .main-profile .box-right .right-content .box-title {
-    padding: 7px 15px 10px 0;
+    padding: 5px 15px 8px 0;
   }
   .page .profile .main-profile .box-right .right-content .box-title p::before {
     top: -15%;
