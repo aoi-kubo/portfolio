@@ -3006,7 +3006,7 @@
     top: 45%;
   }
   .page .header {
-    padding: 10px 15px 0;
+    padding: 8px 15px 0;
   }
   .page .header ul li {
     font-size: 15px;
@@ -3020,7 +3020,7 @@
     width: 40%;
   }
   .page .profile .main-profile {
-    padding-top: 3px;
+    padding-top: 0px;
   }
   .page .profile .main-profile .box-left p, .page .profile .main-profile .box-right p {
     line-height: 18px;
