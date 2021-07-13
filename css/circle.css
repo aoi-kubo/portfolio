@@ -3006,7 +3006,7 @@
     top: 45%;
   }
   .page .header {
-    padding: 8px 15px 0;
+    padding: 5px 15px 0;
   }
   .page .header ul li {
     font-size: 15px;
@@ -3014,7 +3014,7 @@
   }
   .page .main h1 {
     font-size: 35px;
-    padding-top: 35px;
+    padding-top: 30px;
   }
   .page .main h1::before {
     width: 40%;
@@ -3047,7 +3047,7 @@
     padding: 0 10px 0 15px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
-    margin: 8px 0 0 45px;
+    margin: 8px 0 0 42px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
     padding: 0 0 10px;
@@ -3077,8 +3077,12 @@
   .page .profile .main-profile .box-right .right-content ul li p {
     font-size: 13px;
   }
+  .page .profile .main-profile .box-right .right-content:nth-child(1)::before {
+    right: 10px;
+  }
   .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
     bottom: -61px;
+    right: 10px;
   }
   .page .profile .main-profile .box-right .right-content .box-title {
     padding: 5px 15px 8px 0;
