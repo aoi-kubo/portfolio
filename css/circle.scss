@@ -111,6 +111,9 @@ $pageColor: #f6f5f5;
   position: absolute;
   content: "";
   border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 @mixin line-before {
   position: absolute;
@@ -571,16 +574,13 @@ $pageColor: #f6f5f5;
                   height: 40px;
                   background-color: $profileColor;
                   z-index: -1;
-                  top: -35%;
-                  left: -75%;
                 }
                 &::after {
                   @include box-title;
-                  width: 46px;
-                  height: 46px;
+                  width: 52px;
+                  height: 52px;
                   background-color: $pageColor;
                   z-index: -25;
-                  top: -50%;
                 }
               }
               h4 {
@@ -615,11 +615,6 @@ $pageColor: #f6f5f5;
               left: 60px;
             }
             .box-title {
-              p {
-                &::after {
-                  left: -75%;
-                }
-              }
               h4 {
                 padding: 0 20px 0 30px;
               }
@@ -649,9 +644,6 @@ $pageColor: #f6f5f5;
             .box-title {
               p {
                 display: inline-block;
-                &::after {
-                  right: -65%;
-                }
               }
               h4 {
                 padding: 0 30px 0 20px;
@@ -1642,11 +1634,10 @@ $pageColor: #f6f5f5;
                   &::before {
                     width: 42px;
                     height: 42px;
-                    left: -45%;
                   }
                   &::after {
-                    width: 48px;
-                    height: 48px;
+                    width: 54px;
+                    height: 52px;
                   }
                 }
                 h4 {
@@ -1663,11 +1654,6 @@ $pageColor: #f6f5f5;
           }
           .box-left {
             .left-content {
-              .box-title {
-                p::after {
-                  left: -35%;
-                }
-              }
               &:nth-child(3) {
                 width: 168%;
                 margin: 0 0 0 100px;
@@ -1699,11 +1685,6 @@ $pageColor: #f6f5f5;
           }
           .box-right {
             .right-content {
-              .box-title {
-                p::after {
-                  right: -40%;
-                }
-              }
               ul {
                 padding-left: 125px;
                 text-align: right;
@@ -1867,12 +1848,11 @@ $pageColor: #f6f5f5;
                   &::before {
                     width: 38px;
                     height: 38px;
-                    left: -60%;
                   }
                   &::after {
-                    width: 42px;
-                    height: 42px;
-                    top: -44%;
+                    width: 50px;
+                    height: 48px;
+                    // top: -44%;
                   }
                 }
                 h4 {
@@ -1889,11 +1869,6 @@ $pageColor: #f6f5f5;
           }
           .box-left {
             .left-content {
-              .box-title {
-                p::after {
-                  left: -30%;
-                }
-              }
               &:nth-child(3) {
                 width: 162%;
                 margin: 0 0 0 95px;
@@ -1914,11 +1889,6 @@ $pageColor: #f6f5f5;
           }
           .box-right {
             .right-content {
-              .box-title {
-                p::after {
-                  right: -30%;
-                }
-              }
               ul {
                 padding-left: 110px;
                 li {
@@ -2033,12 +2003,10 @@ $pageColor: #f6f5f5;
                   &::before {
                     width: 36px;
                     height: 36px;
-                    left: -60%;
                   }
                   &::after {
-                    width: 40px;
-                    height: 40px;
-                    top: -42%;
+                    width: 50px;
+                    height: 48px;
                   }
                 }
                 h4 {
@@ -2248,13 +2216,10 @@ $pageColor: #f6f5f5;
                   &::before {
                     width: 26px;
                     height: 26px;
-                    top: -10%;
-                    left: -70%;
                   }
                   &::after {
-                    width: 30px;
-                    height: 30px;
-                    top: -20%;
+                    width: 36px;
+                    height: 34px;
                   }
                 }
                 h4 {
@@ -2310,11 +2275,6 @@ $pageColor: #f6f5f5;
               .profile-text {
                 padding-left: 20px;
               }
-              .box-title {
-                p::after {
-                  left: -60%;
-                }
-              }
             }
           }
           .box-right {
@@ -2339,6 +2299,9 @@ $pageColor: #f6f5f5;
                 z-index: -2;
               }
               &:nth-child(2) {
+                .profile-text {
+                  padding-right: 25px;
+                }
                 &::before {
                   content: url(../img/line-lr-s.png);
                   transform: scale(1) rotateY(180deg);
@@ -2347,12 +2310,7 @@ $pageColor: #f6f5f5;
                 }
               }
               .profile-text {
-                padding-right: 25px;
-              }
-              .box-title {
-                p::after {
-                  right: -50%;
-                }
+                padding-right: 20px;
               }
             }
           }
@@ -2724,9 +2682,8 @@ $pageColor: #f6f5f5;
                     height: 24px;
                   }
                   &::after {
-                    width: 30px;
-                    height: 30px;
-                    top: -23%;
+                    width: 34px;
+                    height: 32px;
                   }
                 }
                 h4 {
@@ -3061,9 +3018,8 @@ $pageColor: #f6f5f5;
                 padding-top: 10px;
                 padding-bottom: 10px;
                 p::after {
-                  top: -30%;
-                  width: 30px;
-                  height: 30px;
+                  width: 34px;
+                  height: 32px;
                 }
               }
             }
@@ -3076,7 +3032,7 @@ $pageColor: #f6f5f5;
                 }
               }
               &:nth-child(3) {
-                margin: 8px 0 0 42px;
+                margin: 8px 0 0 45px;
                 .box-title{
                   padding: 0 0 10px;
                   h4 {
@@ -3094,15 +3050,6 @@ $pageColor: #f6f5f5;
               }
               .box-title {
                 padding: 5px 0 8px 15px;
-                p {
-                  &::before {
-                    top: -15%;
-                    left: -62%;
-                  }
-                  &::after {
-                    left: -75%;
-                  }
-                }
               }
               .profile-text {
                 padding-left: 20px;
@@ -3117,23 +3064,14 @@ $pageColor: #f6f5f5;
                 }
               }
               &:nth-child(1)::before {
-                right: 10px;
+                right: 5px;
               }
               &:nth-child(2)::before {
                 bottom: -61px;
-                right: 10px;
+                right: 0px;
               }
               .box-title {
                 padding: 5px 15px 8px 0;
-                p {
-                  &::before {
-                    top: -15%;
-                    left: -70%;
-                  }
-                  &::after {
-                    right: -60%;
-                  }
-                }
               }
               .profile-text {
                 padding-right: 20px;
