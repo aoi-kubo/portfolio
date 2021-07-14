@@ -2179,7 +2179,7 @@
     padding-top: 10px;
   }
   .page .profile .main-profile .box-left .trigger, .page .profile .main-profile .box-right .trigger {
-    width: 85%;
+    width: 90%;
   }
   .page .profile .main-profile .box-left .left-content, .page .profile .main-profile .box-left .right-content, .page .profile .main-profile .box-right .left-content, .page .profile .main-profile .box-right .right-content {
     padding-bottom: 25px;
@@ -2225,7 +2225,7 @@
             transform: scale(1.15);
   }
   .page .profile .main-profile .box-right .right-content ul {
-    padding-left: 105px;
+    padding-left: 100px;
   }
   .page .profile .main-profile .box-right .right-content ul li p {
     font-size: 22px;
