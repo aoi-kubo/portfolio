@@ -2947,11 +2947,14 @@ $pageColor: #f6f5f5;
       h2 {
         top: 48%;
       }
+      .img {
+        top: 23%;
+      }
       .png3 {
         top: 20%;
       }
       .png4 {
-        padding-top: 30px;
+        padding-top: 20px;
       }
       span {
         width: 36%;
@@ -2976,6 +2979,9 @@ $pageColor: #f6f5f5;
     .modalArea {
       .modalWrapper {
         top: 45%;
+      }
+      .closeModal {
+        right: 1.5rem;
       }
     }
   }

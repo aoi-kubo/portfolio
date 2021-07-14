@@ -2951,11 +2951,14 @@
   .section .swiper-slide h2 {
     top: 48%;
   }
+  .section .swiper-slide .img {
+    top: 23%;
+  }
   .section .swiper-slide .png3 {
     top: 20%;
   }
   .section .swiper-slide .png4 {
-    padding-top: 30px;
+    padding-top: 20px;
   }
   .section .swiper-slide span {
     width: 36%;
@@ -2977,6 +2980,9 @@
   }
   .section .modalArea .modalWrapper {
     top: 45%;
+  }
+  .section .modalArea .closeModal {
+    right: 1.5rem;
   }
   .page .header {
     padding: 5px 15px 0;
