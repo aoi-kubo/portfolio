@@ -1977,12 +1977,12 @@ $pageColor: #f6f5f5;
   }
   .page {
     .header {
-      padding: 30px 60px 0;
+      padding: 20px 60px 0;
     }
     .main {
       h1 {
-        font-size: 68px;
-        padding-top: 65px;
+        font-size: 75px;
+        padding-top: 50px;
       }
     }
     .profile {
@@ -2026,7 +2026,7 @@ $pageColor: #f6f5f5;
                 width: 162%;
                 margin: 0 0 0 95px;
                 .box-title {
-                  padding: 50px 0 25px;
+                  padding: 40px 0 25px;
                 }
               }
               &:nth-child(even)::before {

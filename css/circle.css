@@ -2169,11 +2169,11 @@
             transform: translate(-50%, -50%) scale(1.25);
   }
   .page .header {
-    padding: 30px 60px 0;
+    padding: 20px 60px 0;
   }
   .page .main h1 {
-    font-size: 68px;
-    padding-top: 65px;
+    font-size: 75px;
+    padding-top: 50px;
   }
   .page .profile .main-profile {
     padding-top: 10px;
@@ -2212,7 +2212,7 @@
     margin: 0 0 0 95px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
-    padding: 50px 0 25px;
+    padding: 40px 0 25px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
     left: 40px;
