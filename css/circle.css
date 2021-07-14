@@ -2982,7 +2982,8 @@
     top: 45%;
   }
   .section .modalArea .closeModal {
-    right: 1.5rem;
+    top: 0.8rem;
+    right: 1.3rem;
   }
   .page .header {
     padding: 5px 15px 0;
