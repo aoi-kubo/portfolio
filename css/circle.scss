@@ -1977,12 +1977,12 @@ $pageColor: #f6f5f5;
   }
   .page {
     .header {
-      padding: 20px 60px 0;
+      padding: 20px 50px 0;
     }
     .main {
       h1 {
         font-size: 75px;
-        padding-top: 50px;
+        padding-top: 45px;
       }
     }
     .profile {
@@ -2015,18 +2015,18 @@ $pageColor: #f6f5f5;
                 }
               }
               .profile-text {
-                font-size: 22px;
-                line-height: 30px;
+                font-size: 21.5px;
+                line-height: 29px;
               }
             }
           }
           .box-left {
             .left-content {
               &:nth-child(3) {
-                width: 162%;
-                margin: 0 0 0 95px;
+                width: 166%;
+                margin: 0 0 0 70px;
                 .box-title {
-                  padding: 40px 0 25px;
+                  padding: 30px 0 25px 15px;
                 }
               }
               &:nth-child(even)::before {
@@ -2045,7 +2045,7 @@ $pageColor: #f6f5f5;
                 padding-left: 100px;
                 li {
                   p {
-                    font-size: 22px;
+                    font-size: 21.5px;
                   }
                 }
               }
@@ -2061,7 +2061,7 @@ $pageColor: #f6f5f5;
           }
           .profile-img {
             top: 33%;
-            width: 340px;
+            width: 345px;
           }
         }
       }

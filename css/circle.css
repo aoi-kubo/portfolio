@@ -2169,11 +2169,11 @@
             transform: translate(-50%, -50%) scale(1.25);
   }
   .page .header {
-    padding: 20px 60px 0;
+    padding: 20px 50px 0;
   }
   .page .main h1 {
     font-size: 75px;
-    padding-top: 50px;
+    padding-top: 45px;
   }
   .page .profile .main-profile {
     padding-top: 10px;
@@ -2204,15 +2204,15 @@
     line-height: 36px;
   }
   .page .profile .main-profile .box-left .left-content .profile-text, .page .profile .main-profile .box-left .right-content .profile-text, .page .profile .main-profile .box-right .left-content .profile-text, .page .profile .main-profile .box-right .right-content .profile-text {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 21.5px;
+    line-height: 29px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
-    width: 162%;
-    margin: 0 0 0 95px;
+    width: 166%;
+    margin: 0 0 0 70px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
-    padding: 40px 0 25px;
+    padding: 30px 0 25px 15px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
     left: 40px;
@@ -2228,7 +2228,7 @@
     padding-left: 100px;
   }
   .page .profile .main-profile .box-right .right-content ul li p {
-    font-size: 22px;
+    font-size: 21.5px;
   }
   .page .profile .main-profile .box-right .right-content::before {
     right: 40px;
@@ -2242,7 +2242,7 @@
   }
   .page .profile .main-profile .profile-img {
     top: 33%;
-    width: 340px;
+    width: 345px;
   }
 }
 
