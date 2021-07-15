@@ -1941,7 +1941,7 @@
   .page .profile .main-profile .box-left .left-content:nth-child(3)::before {
     display: none;
   }
-  .page .profile .main-profile .box-left .left-content::before {
+  .page .profile .main-profile .box-left .left-content:nth-child(1):before {
     content: url(../img/line-ta.png);
     -webkit-transform: scale(1.3);
             transform: scale(1.3);
@@ -1978,7 +1978,6 @@
     -webkit-transform: scale(1.3) rotateY(180deg);
             transform: scale(1.3) rotateY(180deg);
     bottom: -55px;
-    width: 60%;
   }
   .page .profile .main-profile .profile-img {
     top: 33%;
