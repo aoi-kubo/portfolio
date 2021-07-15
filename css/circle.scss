@@ -1687,12 +1687,14 @@ $pageColor: #f6f5f5;
                 }
               }
               &::before {
+                display: inline-block;
                 content: url(../img/line-ta.png);
                 transform: scale(1.3) rotateY(180deg);
                 bottom: -100px;
               }
               &:nth-child(2) {
                 &::before {
+                  display: inline-block;
                   content: url(../img/line-lr.png);
                   transform: scale(1.3) rotateY(180deg);
                   bottom: -55px;

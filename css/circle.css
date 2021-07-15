@@ -1968,12 +1968,14 @@
     text-align: right;
   }
   .page .profile .main-profile .box-right .right-content::before {
+    display: inline-block;
     content: url(../img/line-ta.png);
     -webkit-transform: scale(1.3) rotateY(180deg);
             transform: scale(1.3) rotateY(180deg);
     bottom: -100px;
   }
   .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
+    display: inline-block;
     content: url(../img/line-lr.png);
     -webkit-transform: scale(1.3) rotateY(180deg);
             transform: scale(1.3) rotateY(180deg);
