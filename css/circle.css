@@ -2035,10 +2035,10 @@
     font-size: 80px;
   }
   .section .swiper-slide .img {
-    top: 21%;
+    top: 20%;
   }
   .section .swiper-slide .png3 {
-    top: 14%;
+    top: 13%;
   }
   .section .swiper-slide .png4 {
     padding-top: 30px;
@@ -2051,8 +2051,8 @@
   }
   .section .swiper-slide .svg {
     top: 44%;
-    -webkit-transform: translate(-50%, -50%) scale(1.4);
-            transform: translate(-50%, -50%) scale(1.4);
+    -webkit-transform: translate(-50%, -50%) scale(1.35);
+            transform: translate(-50%, -50%) scale(1.35);
   }
   .section .swiper-pagination {
     padding-bottom: 70px !important;
