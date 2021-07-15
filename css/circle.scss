@@ -93,7 +93,7 @@ $pageColor: #f6f5f5;
   transform: translate(-50%, -50%);
   width: 70%;
   max-width: 100vh;
-  padding: 10px 30px;
+  padding: 20px 30px;
   color: #fff;
   background-color: $mainColor;
   border-radius: 10px;
@@ -102,7 +102,7 @@ $pageColor: #f6f5f5;
 }
 @mixin closeModal {
   position: absolute;
-  top: 1rem;
+  top: 2rem;
   right: 2rem;
   font-size: 40px;
   cursor: pointer;
@@ -118,10 +118,6 @@ $pageColor: #f6f5f5;
 @mixin line-before {
   position: absolute;
   content: url(../img/line.png);
-  // background-color: $mainColor;
-  // height: 2px;
-  // bottom: 20px;
-  // width: 73%;
   bottom: -60px;
   transform: scale(1.3);
 }
@@ -130,17 +126,10 @@ $pageColor: #f6f5f5;
   max-width: 100%;
   height: 100vh;
   color: #ffffff;
-  // background-color: #f6f5f5;
   margin: 0 auto;
   font-size: 16px;
   box-sizing: border-box;
   font-family: anisette-std, sans-serif;
-  // font-family: anisette-std, sans-serif;
-  // font-family: Anisette, sans-serif;
-
-  // font-family: "Bowlby One SC", cursive;
-  // justify-content: center;
-  // align-items: center;
   overflow: hidden;
 }
 
@@ -280,6 +269,7 @@ $pageColor: #f6f5f5;
     }
     .modalWrapper {
       @include modalWrapper;
+      width: 50%;
     }
     .modalContents {
       h3 {
@@ -302,7 +292,7 @@ $pageColor: #f6f5f5;
           a {
             font-weight: bold;
             font-size: 26px;
-            padding-left: 10px;
+            padding-left: 30px;
             line-height: 15px;
             transition: all 0.3s;
             &:hover {
@@ -366,7 +356,7 @@ $pageColor: #f6f5f5;
     .modalWrapper {
       @include modalWrapper;
       width: 50%;
-      padding: 30px;
+      // padding: 30px;
     }
     .modalContents {
       h3 {
@@ -389,7 +379,7 @@ $pageColor: #f6f5f5;
           a {
             font-weight: bold;
             font-size: 26px;
-            padding-left: 10px;
+            padding-left: 30px;
             line-height: 15px;
             transition: all 0.3s;
             &:hover {
@@ -1131,6 +1121,11 @@ $pageColor: #f6f5f5;
         }
       }
     }
+    .modalArea {
+      .closeModal {
+        top: 1rem;
+      }
+    }
   }
   .page {
     .header {
@@ -1164,17 +1159,6 @@ $pageColor: #f6f5f5;
               width: 65%;
             }
             .left-content {
-              // &:nth-child(odd)::before {
-              //   width: 350px;
-              // }
-              // &:nth-child(1)::after {
-              //   bottom: -26px;
-              //   right: 58px;
-              // }
-              // &:nth-child(3)::after {
-              //   bottom: 75px;
-              //   right: 37px;
-              // }
               &:nth-child(1)::before {
                 transform: scale(1.25);
               }
@@ -1201,7 +1185,6 @@ $pageColor: #f6f5f5;
                 transform: scale(1.25) rotateY(180deg);
               }
               &:nth-child(2) {
-                // padding-bottom: 10px;
                 &::before {
                   transform: scale(1.25) rotate(180deg);
                 }
@@ -1235,10 +1218,6 @@ $pageColor: #f6f5f5;
       }
       .svg {
         transform: scale(1.45);
-        // padding: 0 10px 15px 20px;
-        // &:hover {
-        //   transform: scale(1.55);
-        // }
       }
     }
   }
@@ -1320,13 +1299,17 @@ $pageColor: #f6f5f5;
         }
       }
     }
-    .profile {
+    .profile, .service, .portfolio {
       .main {
         h1 {
           &::before {
-            border-bottom: 8px solid $mainColor;
+            border-bottom: 8px solid;
           }
         }
+      }
+    }
+    .profile {
+      .main {
         &-profile {
           .box-left, .box-right {
             .left-content, .right-content {
@@ -1475,10 +1458,6 @@ $pageColor: #f6f5f5;
     }
     .profile {
       .main {
-        // h1 {
-        //   font-size: 95px;
-        //   padding-top: 200px;
-        // }
         &-profile {
           padding-top: 60px;
         }
@@ -1515,9 +1494,6 @@ $pageColor: #f6f5f5;
         top: 72%;
       }
     }
-    // .swiper-pagination {
-    //   // padding-bottom: 0px !important;
-    // }
   }
   .page {
     .main {
@@ -1582,10 +1558,26 @@ $pageColor: #f6f5f5;
     .swiper-pagination {
       padding-bottom: 100px !important;
     }
+    .modalArea {
+      .modalWrapper {
+        width: 70%;
+      }
+      .closeModal {
+        top: 1.2rem;
+      }
+    }
   }
   .page {
     .header {
       padding: 30px 60px 0;
+    }
+    .modalArea {
+      .modalWrapper {
+        width: 70%;
+      }
+      .closeModal {
+        top: 1.2rem;
+      }
     }
     .main {
       h1 {
@@ -1596,11 +1588,20 @@ $pageColor: #f6f5f5;
         }
       }
     }
+    .profile, .service, .portfolio {
+      .main {
+        h1 {
+          &::before {
+            border-bottom: 6px solid;
+          }
+        }
+      }
+    }
     .profile {
       .main {
-        h1::before {
-          border-bottom: 6px solid $mainColor;
-        }
+        // h1::before {
+        //   border-bottom: 6px solid $mainColor;
+        // }
         &-profile {
           width: 83%;
           padding-top: 20px;
@@ -2151,6 +2152,7 @@ $pageColor: #f6f5f5;
             a {
               font-family: "Noto Sans JP";
               font-size: 20px;
+              padding-left: 15px;
             }
           }
         }
@@ -2167,6 +2169,38 @@ $pageColor: #f6f5f5;
         width: 30%;
       }
     }
+    .modalArea {
+      .modalWrapper {
+        width: 70%;
+        top: 45%;
+        padding: 30px 20px 20px 25px; 
+      }
+      .modalContents {
+        h3 {
+          padding: 0 0 20px 0;
+          width: 80%;
+          font-size: 18px;
+        }
+        p {
+          font-weight: normal;
+          font-size: 16px;
+          padding-bottom: 18px;
+        }
+        ul {
+          li {
+            i {
+              transform: scale(1.2);
+              line-height: 34px;
+            }
+            a {
+              font-family: "Noto Sans JP";
+              font-size: 19px;
+              padding-left: 15px;
+            }
+          }
+        }
+      }
+    }
     .main {
       h1 {
         font-size: 60px;
@@ -2176,13 +2210,17 @@ $pageColor: #f6f5f5;
         }
       }
     }
-    .profile {
+    .profile, .service, .portfolio {
       .main {
         h1 {
           &::before {
-            border-bottom: 5px solid $mainColor;
+            border-bottom: 5px solid;
           }
         }
+      }
+    }
+    .profile {
+      .main {
         &-profile {
           width: 96%;
           padding-top: 0px;
@@ -2323,37 +2361,6 @@ $pageColor: #f6f5f5;
         }
       }
     }
-    .modalArea {
-      .modalWrapper {
-        width: 70%;
-        top: 45%;
-        padding: 30px 20px 20px 25px; 
-      }
-      .modalContents {
-        h3 {
-          padding: 0 0 20px 0;
-          width: 80%;
-          font-size: 18px;
-        }
-        p {
-          font-weight: normal;
-          font-size: 16px;
-          padding-bottom: 18px;
-        }
-        ul {
-          li {
-            i {
-              transform: scale(1.2);
-              line-height: 34px;
-            }
-            a {
-              font-family: "Noto Sans JP";
-              font-size: 19px;
-            }
-          }
-        }
-      }
-    }
     .service {
       .area {
         .circles {
@@ -2459,6 +2466,9 @@ $pageColor: #f6f5f5;
           }
         }
       }
+      .closeModal {
+        right: 1.5rem;
+      }
     }
   }
   .page {
@@ -2466,6 +2476,23 @@ $pageColor: #f6f5f5;
       padding: 15px 30px 0;
       ul li {
         font-size: 17px;
+      }
+    }
+    .modalArea {
+      .modalContents {
+        ul {
+          li {
+            i {
+              transform: scale(1.15);
+            }
+            a {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .closeModal {
+        right: 1.5rem;
       }
     }
     .main {
@@ -2649,6 +2676,20 @@ $pageColor: #f6f5f5;
         }
       }
     }
+    .modalArea {
+      .modalWrapper {
+        top: 44%;
+      }
+      .modalContents {
+        ul {
+          li {
+            a {
+              font-size: 17.5px;
+            }
+          }
+        }
+      }
+    }
   }
   .page {
     .header {
@@ -2657,6 +2698,20 @@ $pageColor: #f6f5f5;
         li {
           font-size: 16px;
           margin-left: 40px;
+        }
+      }
+    }
+    .modalArea {
+      .modalWrapper {
+        top: 44%;
+      }
+      .modalContents {
+        ul {
+          li {
+            a {
+              font-size: 17.5px;
+            }
+          }
         }
       }
     }
@@ -2754,20 +2809,6 @@ $pageColor: #f6f5f5;
         }
       }
     }
-    .modalArea {
-      .modalWrapper {
-        top: 44%;
-      }
-      .modalContents {
-        ul {
-          li {
-            a {
-              font-size: 17.5px;
-            }
-          }
-        }
-      }
-    }
   }
 }
 
@@ -2843,11 +2884,46 @@ $pageColor: #f6f5f5;
           }
         }
       }
+      .closeModal {
+        top: 0.8rem;
+        right: 1.15rem;
+      }
     }
   }
   .page {
     .header {
       padding: 20px 25px 0;
+    }
+    .modalArea {
+      .modalWrapper {
+        padding: 10px 15px 10px 25px;
+        top: 40%;
+      }
+      .modalContents {
+        h3 {
+          font-size: 16px;
+          padding: 20px 0 15px;
+        }
+        p {
+          font-size: 14px;
+          padding-bottom: 15px;
+        }
+        ul {
+          li {
+            i {
+              transform: scale(1);
+              line-height: 28px;
+            }
+            a {
+              font-size: 16.5px;
+            }
+          }
+        }
+      }
+      .closeModal {
+        top: 0.8rem;
+        right: 1.15rem;
+      }
     }
     .main {
       h1 {
@@ -2855,11 +2931,17 @@ $pageColor: #f6f5f5;
         padding-top: 55px;
       }
     }
+    .profile, .service, .portfolio {
+      .main {
+        h1 {
+          &::before {
+            border-bottom: 3px solid;
+          }
+        }
+      }
+    }
     .profile {
       .main {
-        h1::before {
-          border-bottom: 3px solid $mainColor;
-        }
         &-profile {
           padding-top: 0;
           .box-left, .box-right {
@@ -2980,10 +3062,6 @@ $pageColor: #f6f5f5;
       .modalWrapper {
         top: 45%;
       }
-      .closeModal {
-        top: 0.8rem;
-        right: 1.1rem;
-      }
     }
   }
   .page {
@@ -2992,6 +3070,11 @@ $pageColor: #f6f5f5;
       ul li {
         font-size: 15px;
         margin-left: 35px;
+      }
+    }
+    .modalArea {
+      .modalWrapper {
+        top: 45%;
       }
     }
     .main {
