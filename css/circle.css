@@ -288,7 +288,7 @@
 
 .page {
   color: #35375e;
-  background: #f6f5f5;
+  background-color: #f6f5f5;
   font-family: anisette-std, sans-serif;
   font-size: 16px;
   min-width: 100%;
@@ -1923,7 +1923,7 @@
     line-height: 42px;
   }
   .page .profile .main-profile .box-left .left-content .profile-text, .page .profile .main-profile .box-left .right-content .profile-text, .page .profile .main-profile .box-right .left-content .profile-text, .page .profile .main-profile .box-right .right-content .profile-text {
-    font-size: 26px;
+    font-size: 24px;
     line-height: 35px;
     padding-bottom: 30px;
   }
@@ -2102,7 +2102,7 @@
     line-height: 38px;
   }
   .page .profile .main-profile .box-left .left-content .profile-text, .page .profile .main-profile .box-left .right-content .profile-text, .page .profile .main-profile .box-right .left-content .profile-text, .page .profile .main-profile .box-right .right-content .profile-text {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 32px;
     padding-bottom: 30px;
   }
