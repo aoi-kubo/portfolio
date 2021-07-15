@@ -1104,9 +1104,6 @@ $pageColor: #f6f5f5;
       }
       .svg {
         transform: scale(1.6);
-        // &:hover {
-        //   transform: scale(1.75);
-        // }
       }
       h3 {
         font-size: 34px;
@@ -1404,10 +1401,6 @@ $pageColor: #f6f5f5;
     }
     .profile {
       .main {
-        // h1 {
-        //   font-size: 90px;
-        //   padding-top: 100px;
-        // }
         &-profile {
           padding-top: 50px;
           .profile-img {
@@ -1767,6 +1760,43 @@ $pageColor: #f6f5f5;
           }
         }
       }
+    }
+  }
+}
+@media screen and (max-width: 1024px) and (max-height: 768px) {
+  .header {
+    &-logo {
+      width: 20%;
+    }
+  }
+  .section {
+    .swiper-slide {
+      h2 {
+        top: 65%;
+        font-size: 80px;
+      }
+      .img {
+        top: 21%;
+      }
+      .png3 {
+        top: 14%;
+      }
+      .png4 {
+        padding-top: 30px;
+      }
+      span {
+        top: 70%;
+      }
+      h3 {
+        top: 73%;
+      }
+      .svg {
+        top: 44%;
+        transform: translate(-50%, -50%) scale(1.4);
+      }
+    }
+    .swiper-pagination {
+      padding-bottom: 70px !important;
     }
   }
 }
