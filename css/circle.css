@@ -2339,7 +2339,7 @@
   .section .modalArea .modalContents ul li a {
     font-family: "Noto Sans JP";
     font-size: 20px;
-    padding-left: 15px;
+    padding-left: 10px;
   }
   .area {
     display: none;
@@ -2373,7 +2373,7 @@
   .page .modalArea .modalContents ul li a {
     font-family: "Noto Sans JP";
     font-size: 19px;
-    padding-left: 15px;
+    padding-left: 10px;
   }
   .page .main h1 {
     font-size: 60px;
