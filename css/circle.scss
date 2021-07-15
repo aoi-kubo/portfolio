@@ -1815,7 +1815,7 @@ $pageColor: #f6f5f5;
     .header {
       padding: 40px 60px 0;
       ul {
-        li:nth-child(n + 2):nth-child(-n + 4) {
+        li:nth-child(n + 2):nth-child(-n + 3) {
           display: none;
         }
       }

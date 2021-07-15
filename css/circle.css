@@ -2065,7 +2065,7 @@
     padding: 40px 60px 0;
     z-index: 10;
   }
-  .page .header ul li:nth-child(n + 2):nth-child(-n + 4) {
+  .page .header ul li:nth-child(n + 2):nth-child(-n + 3) {
     display: none;
   }
   .page .main h1 {
