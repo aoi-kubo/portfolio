@@ -1927,21 +1927,7 @@
     line-height: 35px;
     padding-bottom: 30px;
   }
-  .page .profile .main-profile .box-left .left-content:nth-child(3) {
-    width: 160%;
-    margin: 0 0 0 120px;
-  }
-  .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
-    padding: 80px 0 30px;
-    text-align: center;
-  }
-  .page .profile .main-profile .box-left .left-content:nth-child(3) .profile-text {
-    padding: 0 20px 0;
-  }
-  .page .profile .main-profile .box-left .left-content:nth-child(3)::before {
-    display: none;
-  }
-  .page .profile .main-profile .box-left .left-content:nth-child(1):before {
+  .page .profile .main-profile .box-left .left-content:nth-child(1)::before {
     content: url(../img/line-ta.png);
     -webkit-transform: scale(1.3);
             transform: scale(1.3);
@@ -1959,13 +1945,19 @@
     height: 0;
     bottom: 50px;
   }
-  .page .profile .main-profile .box-right .right-content ul {
-    padding-left: 125px;
-    text-align: right;
+  .page .profile .main-profile .box-left .left-content:nth-child(3) {
+    width: 160%;
+    margin: 0 0 0 120px;
   }
-  .page .profile .main-profile .box-right .right-content ul li p {
-    font-size: 26px;
-    text-align: right;
+  .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
+    padding: 80px 0 30px;
+    text-align: center;
+  }
+  .page .profile .main-profile .box-left .left-content:nth-child(3) .profile-text {
+    padding: 0 20px 0;
+  }
+  .page .profile .main-profile .box-left .left-content:nth-child(3)::before {
+    display: none;
   }
   .page .profile .main-profile .box-right .right-content::before {
     content: url(../img/line-ta.png);
@@ -1979,6 +1971,14 @@
             transform: scale(1.3) rotateY(180deg);
     bottom: -55px;
     width: 60%;
+  }
+  .page .profile .main-profile .box-right .right-content ul {
+    padding-left: 125px;
+    text-align: right;
+  }
+  .page .profile .main-profile .box-right .right-content ul li p {
+    font-size: 26px;
+    text-align: right;
   }
   .page .profile .main-profile .profile-img {
     top: 33%;

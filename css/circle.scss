@@ -1645,6 +1645,19 @@ $pageColor: #f6f5f5;
           }
           .box-left {
             .left-content {
+              &:nth-child(1)::before {
+                content: url(../img/line-ta.png);
+                transform: scale(1.3);
+                bottom: -100px;
+              }
+              &:nth-child(even)::before {
+                @include line-before;
+                content: url(../img/line-lr.png);
+                transform: scale(1.3);
+                width: 60%;
+                height: 0;
+                bottom: 50px;
+              }
               &:nth-child(3) {
                 width: 160%;
                 margin: 0 0 0 120px;
@@ -1659,23 +1672,21 @@ $pageColor: #f6f5f5;
                   display: none;
                 }
               }
-              &:nth-child(1):before {
-                content: url(../img/line-ta.png);
-                transform: scale(1.3);
-                bottom: -100px;
-              }
-              &:nth-child(even)::before {
-                @include line-before;
-                content: url(../img/line-lr.png);
-                transform: scale(1.3);
-                width: 60%;
-                height: 0;
-                bottom: 50px;
-              }
             }
           }
           .box-right {
             .right-content {
+              &::before {
+                content: url(../img/line-ta.png);
+                transform: scale(1.3) rotateY(180deg);
+                bottom: -100px;
+              }
+              &:nth-child(2)::before {
+                content: url(../img/line-lr.png);
+                transform: scale(1.3) rotateY(180deg);
+                bottom: -55px;
+                width: 60%;
+              }
               ul {
                 padding-left: 125px;
                 text-align: right;
@@ -1684,19 +1695,6 @@ $pageColor: #f6f5f5;
                     font-size: 26px;
                     text-align: right;
                   }
-                }
-              }
-              &::before {
-                content: url(../img/line-ta.png);
-                transform: scale(1.3) rotateY(180deg);
-                bottom: -100px;
-              }
-              &:nth-child(2) {
-                &::before {
-                  content: url(../img/line-lr.png);
-                  transform: scale(1.3) rotateY(180deg);
-                  bottom: -55px;
-                  width: 60%;
                 }
               }
             }
