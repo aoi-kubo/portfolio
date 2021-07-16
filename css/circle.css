@@ -1882,7 +1882,7 @@
     border-bottom: 6px solid;
   }
   .page .profile .main-profile {
-    width: 83%;
+    width: 87%;
     padding-top: 20px;
   }
   .page .profile .main-profile .box-left p span, .page .profile .main-profile .box-right p span {
@@ -1928,8 +1928,8 @@
     padding-bottom: 30px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
-    width: 168%;
-    margin: 0 0 0 100px;
+    width: 160%;
+    margin: 0 0 0 120px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) .box-title {
     padding: 80px 0 30px;
