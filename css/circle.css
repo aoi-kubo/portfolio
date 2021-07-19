@@ -2632,13 +2632,15 @@
   }
   .page .main h1 {
     font-size: 60px;
-    padding-top: 65px;
   }
   .page .main h1::before {
     width: 54%;
   }
   .page .profile .main h1::before, .page .service .main h1::before, .page .portfolio .main h1::before {
     border-bottom: 5px solid;
+  }
+  .page .profile .main h1 {
+    padding-top: 65px;
   }
   .page .profile .main-profile {
     width: 96%;
@@ -2742,6 +2744,7 @@
   }
   .page .profile .main-profile .box-right .right-content ul li p {
     font-size: 16px;
+    line-height: 23px;
   }
   .page .profile .main-profile .box-right .right-content::before {
     content: url(../img/line-s.png);
@@ -2899,10 +2902,12 @@
   }
   .page .main h1 {
     font-size: 55px;
-    padding-top: 55px;
   }
   .page .main h1::before {
     width: 48%;
+  }
+  .page .profile .main h1 {
+    padding-top: 55px;
   }
   .page .profile .main-profile {
     padding-top: 5px;
@@ -2944,6 +2949,9 @@
             transform: scale(0.9) rotateY(180deg);
     bottom: -70px;
     right: 0;
+  }
+  .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
+    bottom: -56px;
   }
   .page .profile .main-profile .profile-img {
     width: 200px;
@@ -2990,6 +2998,8 @@
   }
   .page .main h1 {
     font-size: 50px;
+  }
+  .page .profile .main h1 {
     padding-top: 55px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
@@ -3061,6 +3071,8 @@
   }
   .page .main h1 {
     font-size: 45px;
+  }
+  .page .profile .main h1 {
     padding-top: 58px;
   }
   .page .profile .main-profile {
@@ -3106,7 +3118,7 @@
     left: -80%;
   }
   .page .profile .main-profile .box-right .right-content .box-title h4 {
-    padding: 0 15px 0 10px;
+    padding: 0 15px 0 15px;
   }
   .page .profile .main-profile .box-right .right-content ul {
     padding-left: 35px;
@@ -3115,7 +3127,7 @@
     padding: 3px 0;
   }
   .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
-    bottom: -57px;
+    bottom: -58px;
   }
   .page .profile .main-profile .box-right .right-content:nth-child(1)::before {
     -webkit-transform: scale(0.95) rotateY(180deg);
@@ -3241,10 +3253,12 @@
   }
   .page .main h1 {
     font-size: 45px;
-    padding-top: 55px;
   }
   .page .profile .main h1::before, .page .service .main h1::before, .page .portfolio .main h1::before {
     border-bottom: 3px solid;
+  }
+  .page .profile .main h1 {
+    padding-top: 55px;
   }
   .page .profile .main-profile {
     padding-top: 0;
@@ -3294,12 +3308,16 @@
   .page .profile .main-profile .box-right .right-content ul {
     padding-left: 40px;
   }
+  .page .profile .main-profile .box-right .right-content ul li p {
+    font-size: 14px;
+    line-height: 21px;
+  }
   .page .profile .main-profile .box-right .right-content .profile-text {
     font-size: 14px;
     padding-right: 25px;
   }
   .page .profile .main-profile .box-right .right-content:nth-child(2)::before {
-    bottom: -49px;
+    bottom: -52px;
   }
   .page .profile .main-profile .box-right .right-content:nth-child(1)::before {
     -webkit-transform: scale(0.9) rotateY(180deg);
@@ -3374,10 +3392,12 @@
   }
   .page .main h1 {
     font-size: 35px;
-    padding-top: 30px;
   }
   .page .main h1::before {
     width: 40%;
+  }
+  .page .profile .main h1 {
+    padding-top: 30px;
   }
   .page .profile .main-profile {
     padding-top: 0px;
@@ -3428,6 +3448,7 @@
   }
   .page .profile .main-profile .box-right .right-content ul li p {
     font-size: 13px;
+    line-height: 20px;
   }
   .page .profile .main-profile .box-right .right-content:nth-child(1)::before {
     right: 5px;
@@ -3446,6 +3467,9 @@
     width: 175px;
     top: 35%;
     left: 25%;
+  }
+  .page .service .main h1 {
+    padding-top: 40px;
   }
 }
 /*# sourceMappingURL=circle.css.map */

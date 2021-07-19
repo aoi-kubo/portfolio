@@ -2406,7 +2406,6 @@ $pageColor: #f6f5f5;
       .svg {
         top: 38%;
         transform: translate(-50%, -50%) scale(0.9);
-        // transform: scale(1);
       }
     }
     .swiper-pagination {
@@ -2501,7 +2500,6 @@ $pageColor: #f6f5f5;
     .main {
       h1 {
         font-size: 60px;
-        padding-top: 65px;
         &::before {
           width: 54%;
         }
@@ -2518,6 +2516,9 @@ $pageColor: #f6f5f5;
     }
     .profile {
       .main {
+        h1 {
+          padding-top: 65px;
+        }
         &-profile {
           width: 96%;
           padding-top: 0px;
@@ -2623,6 +2624,7 @@ $pageColor: #f6f5f5;
                   padding-bottom: 0;
                   p {
                     font-size: 16px;
+                    line-height: 23px;
                   }
                 }
               }
@@ -2824,7 +2826,6 @@ $pageColor: #f6f5f5;
     .main {
       h1 {
         font-size: 55px;
-        padding-top: 55px;
         &::before {
           width: 48%;
         }
@@ -2832,6 +2833,9 @@ $pageColor: #f6f5f5;
     }
     .profile {
       .main {
+        h1 {
+          padding-top: 55px;
+        }
         &-profile {
           padding-top: 5px;
           .box-left, .box-right {
@@ -2885,6 +2889,9 @@ $pageColor: #f6f5f5;
                 transform: scale(0.9) rotateY(180deg);
                 bottom: -70px;
                 right: 0;
+              }
+              &:nth-child(2)::before {
+                bottom: -56px;
               }
             }
           }
@@ -2948,11 +2955,13 @@ $pageColor: #f6f5f5;
     .main {
       h1 {
         font-size: 50px;
-        padding-top: 55px;
       }
     }
     .profile {
       .main {
+        h1 {
+          padding-top: 55px;
+        }
         &-profile {
           // padding-top: 15px;
           .box-left {
@@ -3056,11 +3065,13 @@ $pageColor: #f6f5f5;
     .main {
       h1 {
         font-size: 45px;
-        padding-top: 58px;
       }
     }
     .profile {
       .main {
+        h1 {
+          padding-top: 58px;
+        }
         &-profile {
           padding-top: 5px;
           .box-left, .box-right {
@@ -3119,7 +3130,7 @@ $pageColor: #f6f5f5;
             .right-content {
               .box-title {
                 h4 {
-                  padding: 0 15px 0 10px;
+                  padding: 0 15px 0 15px;
                 }
               }
               ul {
@@ -3127,9 +3138,14 @@ $pageColor: #f6f5f5;
                 span, span::before {
                   padding: 3px 0;
                 }
+                // li {
+                //   p {
+                //     line-height: 23px;
+                //   }
+                // }
               }
               &:nth-child(2)::before {
-                bottom: -57px;
+                bottom: -58px;
               }
               &:nth-child(1)::before {
                 transform: scale(0.95) rotateY(180deg);
@@ -3284,7 +3300,6 @@ $pageColor: #f6f5f5;
     .main {
       h1 {
         font-size: 45px;
-        padding-top: 55px;
       }
     }
     .profile, .service, .portfolio {
@@ -3298,6 +3313,9 @@ $pageColor: #f6f5f5;
     }
     .profile {
       .main {
+        h1 {
+          padding-top: 55px;
+        }
         &-profile {
           padding-top: 0;
           .box-left, .box-right {
@@ -3354,14 +3372,19 @@ $pageColor: #f6f5f5;
             .right-content {
               ul {
                 padding-left: 40px;
+                li {
+                  p {
+                    font-size: 14px;
+                    line-height: 21px;
+                  }
+                }
               }
               .profile-text {
                 font-size: 14px;
                 padding-right: 25px;
-                // padding-bottom: 20px;
               }
               &:nth-child(2)::before {
-                bottom: -49px;
+                bottom: -52px;
               }
               &:nth-child(1)::before {
                 transform: scale(0.9) rotateY(180deg);
@@ -3459,7 +3482,6 @@ $pageColor: #f6f5f5;
     .main {
       h1 {
         font-size: 35px;
-        padding-top: 30px;
         &::before {
           width: 40%;
         }
@@ -3467,6 +3489,9 @@ $pageColor: #f6f5f5;
     }
     .profile {
       .main {
+        h1 {
+          padding-top: 30px;
+        }
         &-profile {
           padding-top: 0px;
           .box-left, .box-right {
@@ -3530,6 +3555,7 @@ $pageColor: #f6f5f5;
               ul li {
                 p {
                   font-size: 13px;
+                  line-height: 20px;
                 }
               }
               &:nth-child(1)::before {
@@ -3552,6 +3578,13 @@ $pageColor: #f6f5f5;
             top: 35%;
             left: 25%;
           }
+        }
+      }
+    }
+    .service {
+      .main {
+        h1 {
+          padding-top: 40px;
         }
       }
     }
