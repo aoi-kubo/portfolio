@@ -599,8 +599,8 @@
 
 .page .profile .main-profile .box-left p, .page .profile .main-profile .box-right p {
   font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-  font-size: 22px;
-  line-height: 23px;
+  font-size: 24px;
+  line-height: 35px;
 }
 
 .page .profile .main-profile .box-left p span, .page .profile .main-profile .box-right p span {
@@ -903,6 +903,9 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0 50px;
 }
 
 .page .service .main-service li {
@@ -919,24 +922,25 @@
   width: 600px;
   height: 600px;
   z-index: 3;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  content: url(../img/service-line.png);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
-.page .service .main-service li:nth-child(1)::before {
-  content: url(../img/no-01.png);
+.page .service .main-service li h5 {
+  position: absolute;
+  font-size: 250px;
+  top: 218px;
+  left: -55px;
+  font-family: anisette-std, sans-serif;
+  z-index: 10;
 }
 
-.page .service .main-service li:nth-child(2)::before {
-  content: url(../img/no-02.png);
-}
-
-.page .service .main-service li:nth-child(3)::before {
-  content: url(../img/no-03.png);
-}
-
-.page .service .main-service li:nth-child(4)::before {
-  content: url(../img/no-04.png);
+.page .service .main-service li .svg-bg {
+  -webkit-transform: scale(1.38);
+          transform: scale(1.38);
+  padding-top: 30px;
+  padding-left: 55px;
 }
 
 .page .service .main-service li .text {
@@ -951,14 +955,34 @@
 
 .page .service .main-service li .text h4 {
   color: #5b72e0;
-  font-size: 28px;
-  padding-bottom: 15px;
+  font-size: 45px;
+  padding-bottom: 35px;
+}
+
+.page .service .main-service li .text .svg-img {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  padding-bottom: 30px;
 }
 
 .page .service .main-service li .text p {
   padding-top: 15px;
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
+  font-size: 22px;
+}
+
+.page .service .main-service li:nth-child(1), .page .service .main-service li:nth-child(2) {
+  margin-right: 150px;
+}
+
+.page .service .main-service li:nth-child(3), .page .service .main-service li:nth-child(4) {
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.page .service .main-service li:nth-child(3) h5 {
+  top: 234px;
 }
 
 .page .portfolio .area .circles {
@@ -1520,10 +1544,10 @@
     top: 1rem;
   }
   .page .header {
-    padding: 40px 80px 0;
+    padding: 30px 80px 0;
   }
   .page .main h1 {
-    padding-top: 110px;
+    padding-top: 90px;
   }
   .page .main h1::before {
     width: 26%;
@@ -1534,6 +1558,7 @@
   }
   .page .profile .main-profile .box-left p, .page .profile .main-profile .box-right p {
     font-size: 20px;
+    line-height: 32px;
   }
   .page .profile .main-profile .box-left .left-content .box-title, .page .profile .main-profile .box-left .right-content .box-title, .page .profile .main-profile .box-right .left-content .box-title, .page .profile .main-profile .box-right .right-content .box-title {
     padding: 20px;
@@ -1575,6 +1600,46 @@
   .page .profile .main-profile .profile-img {
     width: 420px;
   }
+  .page .service .area .circles {
+    height: 1390px;
+  }
+  .page .service .main-service {
+    width: 95%;
+  }
+  .page .service .main-service li {
+    width: 450px;
+    height: 450px;
+  }
+  .page .service .main-service li::before {
+    width: 450px;
+    height: 450px;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    top: -50px;
+    left: -70px;
+  }
+  .page .service .main-service li h5 {
+    font-size: 170px;
+  }
+  .page .service .main-service li .svg-bg {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    padding-top: 40px;
+    padding-left: 55px;
+  }
+  .page .service .main-service li .text h4 {
+    font-size: 43px;
+  }
+  .page .service .main-service li .text p {
+    font-size: 20px;
+    width: 90%;
+  }
+  .page .service .main-service li:nth-child(1), .page .service .main-service li:nth-child(2) {
+    margin-right: 80px;
+  }
+  .page .service .main-service li:nth-child(3), .page .service .main-service li:nth-child(4) {
+    margin: 50px 0 60px 80px;
+  }
 }
 
 @media screen and (max-width: 1366px) {
@@ -1597,13 +1662,16 @@
   }
   .page .main h1 {
     font-size: 90px;
-    padding-top: 90px;
+    padding-top: 80px;
   }
   .page .profile .main-profile {
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .page .profile .main-profile .box-left .left-content .box-title, .page .profile .main-profile .box-left .right-content .box-title, .page .profile .main-profile .box-right .left-content .box-title, .page .profile .main-profile .box-right .right-content .box-title {
     padding: 0px 0px 20px 20px;
+  }
+  .page .profile .main-profile .box-left .left-content p, .page .profile .main-profile .box-left .right-content p, .page .profile .main-profile .box-right .left-content p, .page .profile .main-profile .box-right .right-content p {
+    line-height: 30px;
   }
   .page .profile .main-profile .box-right ul {
     padding-left: 195px;
@@ -1664,6 +1732,7 @@
   }
   .page .profile .main-profile .box-left .left-content p, .page .profile .main-profile .box-left .right-content p, .page .profile .main-profile .box-right .left-content p, .page .profile .main-profile .box-right .right-content p {
     font-size: 18px;
+    line-height: 26px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
     height: 2px;
@@ -1695,6 +1764,47 @@
     top: 28%;
     left: 35%;
     width: 300px;
+  }
+  .page .service .main-service {
+    width: 98%;
+    padding: 30px 0;
+  }
+  .page .service .main-service li {
+    width: 400px;
+    height: 400px;
+  }
+  .page .service .main-service li::before {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    top: -70px;
+    left: -90px;
+  }
+  .page .service .main-service li h5 {
+    font-size: 150px;
+    top: 190px;
+    left: -55px;
+  }
+  .page .service .main-service li .svg-bg {
+    padding-top: 30px;
+    padding-left: 45px;
+  }
+  .page .service .main-service li .text h4 {
+    font-size: 40px;
+    z-index: 5;
+  }
+  .page .service .main-service li .text .svg-img {
+    padding-bottom: 15px;
+  }
+  .page .service .main-service li .text p {
+    font-size: 19px;
+    width: 87%;
+  }
+  .page .service .main-service li:nth-child(1) h5 {
+    left: -44px;
+  }
+  .page .service .main-service li:nth-child(3) h5 {
+    top: 205px;
+    left: -50px;
   }
 }
 
@@ -1765,14 +1875,22 @@
     top: 65%;
   }
   .page .header {
-    padding: 60px 60px 0;
+    padding: 30px 60px 0;
   }
   .page .main h1 {
     font-size: 95px;
+  }
+  .page .profile .main h1 {
     padding-top: 200px;
   }
   .page .profile .main-profile {
     padding-top: 60px;
+  }
+  .page .service .main h1 {
+    padding-top: 80px;
+  }
+  .page .service .main-servie {
+    padding-top: 20px;
   }
 }
 
@@ -1814,6 +1932,15 @@
   }
   .page .profile .main-profile {
     width: 93%;
+  }
+  .page .service .main-service li:nth-child(1), .page .service .main-service li:nth-child(2) {
+    margin-right: 80px;
+  }
+  .page .service .main-service li:nth-child(3), .page .service .main-service li:nth-child(4) {
+    margin: 50px 0 60px 80px;
+  }
+  .page .service .main-service li:nth-child(3) .svg-bg, .page .service .main-service li:nth-child(4) .svg-bg {
+    padding-left: 10px;
   }
 }
 
@@ -1988,34 +2115,43 @@
     -webkit-filter: brightness(1.2);
             filter: brightness(1.2);
   }
-  .page .service .area .circles {
-    height: 1290px;
-  }
-  .page .service .area .circles li {
-    -webkit-animation: service-pc 20s linear infinite;
-            animation: service-pc 20s linear infinite;
-  }
   .page .service .main-service li {
-    width: 480px;
-    height: 480px;
+    width: 400px;
+    height: 400px;
   }
   .page .service .main-service li::before {
-    top: -35px;
-    left: -60px;
-    -webkit-transform: scale(0.93);
-            transform: scale(0.93);
+    top: -70px;
+    left: -90px;
+    -webkit-transform: scale(0.9);
+            transform: scale(0.9);
   }
-  .page .service .main-service li:nth-child(1)::before {
-    left: -40px;
+  .page .service .main-service li .svg-bg {
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
   }
-  .page .service .main-service li:nth-child(2)::before {
-    left: -45px;
-  }
-  .page .service .main-service li svg {
-    width: 560px;
+  .page .service .main-service li .text h4 {
+    padding-bottom: 20px;
   }
   .page .service .main-service li .text p {
-    width: 50%;
+    font-size: 17px;
+    width: 82%;
+    padding-top: 10px;
+  }
+  .page .service .main-service li .text .svg-img {
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+  }
+  .page .service .main-service li:nth-child(1), .page .service .main-service li:nth-child(2) {
+    margin-right: 60px;
+  }
+  .page .service .main-service li:nth-child(3), .page .service .main-service li:nth-child(4) {
+    margin-left: 60px;
+  }
+  .page .service .main-service li:nth-child(2), .page .service .main-service li:nth-child(4) {
+    margin-top: 70px;
+  }
+  .page .service .main-service li:nth-child(3) {
+    margin-top: 0;
   }
   .page .portfolio .main-portfolio .text-right,
   .page .portfolio .main-portfolio .text-left {
@@ -2170,11 +2306,42 @@
     top: 33%;
     width: 360px;
   }
+  .page .service .main-service li {
+    width: 340px;
+    height: 340px;
+  }
+  .page .service .main-service li::before {
+    top: -95px;
+    left: -115px;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+  .page .service .main-service li .svg-bg {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    padding-top: 20px;
+    padding-left: 40px;
+  }
+  .page .service .main-service li .text h4 {
+    font-size: 36px;
+  }
+  .page .service .main-service li .text p {
+    font-size: 16px;
+    width: 78%;
+  }
+  .page .service .main-service li:nth-child(1), .page .service .main-service li:nth-child(2) {
+    margin-right: 40px;
+  }
+  .page .service .main-service li:nth-child(3), .page .service .main-service li:nth-child(4) {
+    margin-left: 40px;
+  }
 }
 
 @media screen and (max-width: 834px) and (max-height: 1112px) {
   .page .main h1 {
     font-size: 75px;
+  }
+  .page .profile .main h1 {
     padding-top: 75px;
   }
   .page .profile .main-profile .box-left .left-content .box-title, .page .profile .main-profile .box-left .right-content .box-title, .page .profile .main-profile .box-right .left-content .box-title, .page .profile .main-profile .box-right .right-content .box-title {
@@ -2190,6 +2357,9 @@
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) span:nth-child(1) {
     display: inline-block;
+  }
+  .page .service .main h1 {
+    padding-top: 75px;
   }
 }
 
@@ -2221,7 +2391,9 @@
   }
   .page .main h1 {
     font-size: 75px;
-    padding-top: 45px;
+  }
+  .page .profile .main h1 {
+    padding-top: 50px;
   }
   .page .profile .main-profile {
     padding-top: 5px;
@@ -2287,10 +2459,60 @@
     right: 40px;
     -webkit-transform: scale(1.15) rotateY(180deg);
             transform: scale(1.15) rotateY(180deg);
+    bottom: -48px;
   }
   .page .profile .main-profile .profile-img {
     top: 33%;
     width: 345px;
+  }
+  .page .service .main h1 {
+    padding-top: 50px;
+  }
+  .page .service .main-service li {
+    width: 300px;
+    height: 300px;
+  }
+  .page .service .main-service li::before {
+    top: -110px;
+    left: -135px;
+    -webkit-transform: scale(0.78);
+            transform: scale(0.78);
+  }
+  .page .service .main-service li h5 {
+    font-size: 110px;
+    top: 37px;
+    left: -37px;
+  }
+  .page .service .main-service li .svg-bg {
+    -webkit-transform: scale(1.55);
+            transform: scale(1.55);
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .page .service .main-service li .text .svg-img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    padding-bottom: 5px;
+  }
+  .page .service .main-service li .text h4 {
+    font-size: 32px;
+  }
+  .page .service .main-service li .text p {
+    font-size: 15px;
+    width: 72%;
+  }
+  .page .service .main-service li:nth-child(1) h5 {
+    left: -30px;
+  }
+  .page .service .main-service li:nth-child(3) h5 {
+    top: 30px;
+    left: -30px;
+  }
+  .page .service .main-service li:nth-child(1), .page .service .main-service li:nth-child(2) {
+    margin-right: 20px;
+  }
+  .page .service .main-service li:nth-child(3), .page .service .main-service li:nth-child(4) {
+    margin-left: 20px;
   }
 }
 
@@ -2336,7 +2558,7 @@
             transform: translate(-50%, -50%) scale(0.9);
   }
   .section .swiper-pagination {
-    padding-bottom: 140px !important;
+    padding-bottom: 150px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet {
     font-size: 18px;
@@ -2554,27 +2776,55 @@
     -webkit-animation: service-pc 20s linear infinite;
             animation: service-pc 20s linear infinite;
   }
+  .page .service .main-service {
+    padding: 20px 0 0;
+  }
   .page .service .main-service li {
-    width: 480px;
-    height: 480px;
+    width: 460px;
+    height: 460px;
+    padding-top: 0;
   }
   .page .service .main-service li::before {
-    top: -35px;
-    left: -60px;
-    -webkit-transform: scale(0.93);
-            transform: scale(0.93);
+    top: -95px;
+    left: -80px;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
   }
-  .page .service .main-service li:nth-child(1)::before {
-    left: -40px;
+  .page .service .main-service li h5 {
+    left: 10px;
+    top: 45px;
   }
-  .page .service .main-service li:nth-child(2)::before {
-    left: -45px;
+  .page .service .main-service li .svg-bg {
+    -webkit-transform: scale(1.28);
+            transform: scale(1.28);
+    padding-top: 10px;
+    padding-left: 20px;
   }
-  .page .service .main-service li svg {
-    width: 560px;
+  .page .service .main-service li .text {
+    top: 40%;
   }
   .page .service .main-service li .text p {
-    width: 50%;
+    width: 79%;
+  }
+  .page .service .main-service li:nth-child(1) h5 {
+    left: 10px;
+  }
+  .page .service .main-service li:nth-child(3) h5 {
+    left: 15px;
+    top: 45px;
+  }
+  .page .service .main-service li:nth-child(1), .page .service .main-service li:nth-child(2) {
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .page .service .main-service li:nth-child(1) .svg-bg, .page .service .main-service li:nth-child(2) .svg-bg {
+    padding-left: 20px;
+  }
+  .page .service .main-service li:nth-child(3), .page .service .main-service li:nth-child(4) {
+    margin: 0 0 0 0;
+  }
+  .page .service .main-service li:nth-child(3) .svg-bg, .page .service .main-service li:nth-child(4) .svg-bg {
+    padding-left: 20px;
   }
   .page .portfolio .main-portfolio .text-right,
   .page .portfolio .main-portfolio .text-left {
@@ -2613,7 +2863,7 @@
     top: 37%;
   }
   .section .swiper-pagination {
-    padding-bottom: 175px !important;
+    padding-bottom: 190px !important;
   }
   .section .swiper-pagination .swiper-pagination-bullet {
     margin: 0 35px !important;
@@ -2698,6 +2948,11 @@
   .page .profile .main-profile .profile-img {
     width: 200px;
   }
+  .page .service .main-service li .svg-bg {
+    -webkit-transform: scale(1.28);
+            transform: scale(1.28);
+    padding-top: 25px;
+  }
 }
 
 @media screen and (max-width: 414px) and (max-height: 740px) {
@@ -2754,22 +3009,22 @@
   }
   .section .swiper-slide h2 {
     font-size: 50px;
-    top: 49%;
+    top: 48%;
   }
   .section .swiper-slide .img {
-    top: 27%;
-  }
-  .section .swiper-slide .png3 {
     top: 25%;
   }
+  .section .swiper-slide .png3 {
+    top: 23%;
+  }
   .section .swiper-slide .svg {
-    top: 41%;
+    top: 39%;
     -webkit-transform: translate(-50%, -50%) scale(0.83);
             transform: translate(-50%, -50%) scale(0.83);
   }
   .section .swiper-slide span {
     width: 46%;
-    top: 52%;
+    top: 51%;
   }
   .section .swiper-slide h3 {
     font-size: 22px;
@@ -2873,6 +3128,19 @@
   .page .profile .main-profile .profile-img {
     top: 35%;
     width: 190px;
+  }
+  .page .service .main-service li {
+    width: 440px;
+    height: 440px;
+  }
+  .page .service .main-service li::before {
+    top: -102px;
+    left: -88px;
+    -webkit-transform: scale(0.83);
+            transform: scale(0.83);
+  }
+  .page .service .main-service li h5 {
+    font-size: 95px;
   }
 }
 
@@ -3041,6 +3309,22 @@
   .page .profile .main-profile .profile-img {
     top: 35%;
     width: 185px;
+  }
+  .page .service .main-service li {
+    width: 420px;
+    height: 420px;
+  }
+  .page .service .main-service li::before {
+    left: -100px;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+  }
+  .page .service .main-service li h5 {
+    font-size: 90px;
+  }
+  .page .service .main-service li .text p {
+    font-size: 14px;
+    width: 72%;
   }
 }
 
