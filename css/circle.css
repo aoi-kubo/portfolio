@@ -1796,7 +1796,7 @@
     padding-bottom: 15px;
   }
   .page .service .main-service li .text p {
-    font-size: 19px;
+    font-size: 18px;
     width: 87%;
   }
   .page .service .main-service li:nth-child(1) h5 {
@@ -3057,7 +3057,7 @@
     font-size: 17.5px;
   }
   .page .header {
-    padding: 20px 30px 0;
+    padding: 15px 20px 0;
   }
   .page .header ul li {
     font-size: 16px;
@@ -3073,13 +3073,17 @@
     font-size: 45px;
   }
   .page .profile .main h1 {
-    padding-top: 58px;
+    padding-top: 50px;
   }
   .page .profile .main-profile {
     padding-top: 5px;
   }
   .page .profile .main-profile .box-left p, .page .profile .main-profile .box-right p {
     line-height: 21px;
+  }
+  .page .profile .main-profile .box-left .left-content .box-title, .page .profile .main-profile .box-left .right-content .box-title, .page .profile .main-profile .box-right .left-content .box-title, .page .profile .main-profile .box-right .right-content .box-title {
+    padding-top: 5px;
+    padding-bottom: 10px;
   }
   .page .profile .main-profile .box-left .left-content .box-title p::before, .page .profile .main-profile .box-left .right-content .box-title p::before, .page .profile .main-profile .box-right .left-content .box-title p::before, .page .profile .main-profile .box-right .right-content .box-title p::before {
     width: 24px;
