@@ -3435,7 +3435,7 @@
     padding: 0 10px 0 15px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(even)::before {
-    bottom: 68px;
+    bottom: 67px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(2) .box-title h4 {
     padding: 0 10px 0 13px;
