@@ -3111,7 +3111,10 @@ $pageColor: #f6f5f5;
               }
               &:nth-child(3) {
                 width: 188%;
-                margin: 5px 0 0 40px;
+                margin: 5px 0 0 35px;
+                // .box-title {
+                //   padding: 0 10px 15px 0;
+                // }
                 span {
                   display: inline;
                   &:nth-child(3) {
