@@ -3070,10 +3070,10 @@
     font-size: 17.5px;
   }
   .page .main h1 {
-    font-size: 45px;
+    font-size: 42px;
   }
   .page .profile .main h1 {
-    padding-top: 40px;
+    padding-top: 35px;
   }
   .page .profile .main-profile {
     padding-top: 5px;
@@ -3105,7 +3105,7 @@
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) {
     width: 188%;
-    margin: 15px 0 0 30px;
+    margin: 5px 0 0 40px;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(3) span {
     display: inline;
