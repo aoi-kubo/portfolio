@@ -3151,7 +3151,7 @@
   }
   .page .service .main-service li::before {
     top: -102px;
-    left: -88px;
+    left: -96px;
     -webkit-transform: scale(0.83);
             transform: scale(0.83);
   }
