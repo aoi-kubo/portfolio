@@ -3117,7 +3117,7 @@ $pageColor: #f6f5f5;
                 // }
                 span {
                   display: inline;
-                  &:nth-child(3) {
+                  &:nth-child(2), &:nth-child(3) {
                     display: none;
                   }
                 }
@@ -3162,7 +3162,7 @@ $pageColor: #f6f5f5;
             }
           }
           .profile-img {
-            top: 35%;
+            top: 36%;
             width: 190px;
           }
         }

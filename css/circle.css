@@ -3110,7 +3110,7 @@
   .page .profile .main-profile .box-left .left-content:nth-child(3) span {
     display: inline;
   }
-  .page .profile .main-profile .box-left .left-content:nth-child(3) span:nth-child(3) {
+  .page .profile .main-profile .box-left .left-content:nth-child(3) span:nth-child(2), .page .profile .main-profile .box-left .left-content:nth-child(3) span:nth-child(3) {
     display: none;
   }
   .page .profile .main-profile .box-left .left-content:nth-child(1)::before {
@@ -3142,7 +3142,7 @@
     right: -55%;
   }
   .page .profile .main-profile .profile-img {
-    top: 35%;
+    top: 36%;
     width: 190px;
   }
   .page .service .main-service li {
