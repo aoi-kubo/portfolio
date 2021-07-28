@@ -3073,7 +3073,7 @@ $pageColor: #f6f5f5;
           padding-top: 35px;
         }
         &-profile {
-          padding-top: 5px;
+          padding-top: 0px;
           .box-left, .box-right {
             p {
               line-height: 21px;
@@ -3116,7 +3116,7 @@ $pageColor: #f6f5f5;
                 //   padding: 0 10px 15px 0;
                 // }
                 span {
-                  display: inline;
+                  // display: inline;
                   &:nth-child(2), &:nth-child(3) {
                     display: none;
                   }
@@ -3322,7 +3322,6 @@ $pageColor: #f6f5f5;
           padding-top: 55px;
         }
         &-profile {
-          padding-top: 0;
           .box-left, .box-right {
             p {
               line-height: 20px;
@@ -3498,7 +3497,6 @@ $pageColor: #f6f5f5;
           padding-top: 30px;
         }
         &-profile {
-          padding-top: 0px;
           .box-left, .box-right {
             p {
               line-height: 18px;
