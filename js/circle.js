@@ -36,6 +36,18 @@ $(function () {
 	});
 });
 
+$(function () {
+  $(".work").click(function () {
+    if ($(this).hasClass("open")) {
+      $(this).removeClass("open");
+    } else {
+      $(".work").removeClass("open");
+      $(this).addClass("open");
+    }
+  });
+});
+  
+
 
 // var counter = 1;
 // setInterval(function () {
